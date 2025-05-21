@@ -1,0 +1,39 @@
+<h2>Admin Log Analysis Report</h2>
+
+<h3>Log Entries</h3>
+<table>
+    <thead>
+        <tr>
+            <th>IP</th><th>Timestamp</th><th>Method</th><th>URL</th><th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for log in log_data %}
+        <tr>
+            <td>{{ log.ip }}</td>
+            <td>{{ log.timestamp }}</td>
+            <td>{{ log.method }}</td>
+            <td>{{ log.url }}</td>
+            <td>{{ log.status }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<h3>Detected Threats</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Type</th><th>Severity</th><th>Detected At</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for threat in threat_data %}
+        <tr>
+            <td>{{ threat.threat_type }}</td>
+            <td>{{ threat.severity }}</td>
+            <td>{{ threat.detected_at }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

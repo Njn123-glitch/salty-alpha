@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+{% load static %}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Threat Detection System</title>
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'img/favicons/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicons/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicons/favicon-16x16.png' %}">
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/favicons/favicon.ico' %}">
+    <link rel="manifest" href="{% static 'img/favicons/manifest.json' %}">
+    <meta name="msapplication-TileImage" content="{% static 'img/favicons/mstile-150x150.png' %}">
+    <meta name="theme-color" content="#ffffff">
+    <script src="{% static 'vendors/overlayscrollbars/OverlayScrollbars.min.js' %}"></script>
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="{% static 'vendors/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/theme.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/user.min.css' %}" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-one-page" data-bs-offset="66.1">
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+        <div class="preloader" id="preloader" data-preloader>
+            <div class="preloader-wrapper big active" data-preloader>
+                <div class="spinner-layer spinner-white-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-theme fixed-top py-0" data-navbar-on-scroll="data-navbar-on-scroll">
+            <div class="container"><a class="navbar-brand fw-normal ls-2" href="#">Vu<span class="navbar-brand-i">!</span>n  X</a><button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto" id="navbar-one-page">
+                        <li class="nav-item"><a class="nav-link" href="#about-us"> <span class="nav-link-text">About</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services"> <span class="nav-link-text">Features</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact"><span class="nav-link-text">Contact</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'register' %}"> <span class="nav-link-text">Signup</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'login' %}"> <span class="nav-link-text">Signin</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="text-center overflow-hidden py-0" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+            <div class="bg-holder overlay overlay-2 parallax" style="background-image:url(static/assets/images/bgimg.jpeg);" data-rellax-percentage="0.5"></div>
+            <!--/.bg-holder-->
+            <div class="header-overlay"></div>
+            <div class="container">
+                <div class="d-flex flex-center vh-100">
+                    <div class="header-overlay"></div>
+                    <div class="header-text">
+                        <div class="overflow-hidden">
+                            <h1 class="display-3 text-white fs-5 fs-md-7" data-zanim-xs='{"duration":2,"delay":0}'>THREAT DETECTION</h1>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p class="text-uppercase text-400 ls-3 mt-2" data-zanim-xs='{"duration":2,"delay":0.1}'> System <br class="d-block d-md-none">with Ai</p>
+                        </div>
+                        <div data-zanim-xs='{"from":{"opacity":0,"y":30},"to":{"opacity":1,"y":0},"duration":1.5,"delay":0.5}'><a class="btn btn-sm btn-outline-light hvr-sweep-top mt-5 px-4" href="{% url 'register' %}">Get Started Now</a></div>
+                    </div>
+                </div>
+                <div class="header-indicator-down"><a class="indicator indicator-down opacity-75" href="#about-us"><span class="indicator-arrow indicator-arrow-one" data-zanim-xs='{"from":{"opacity":0,"y":30},"to":{"opacity":1,"y":0},"ease":"Back.easeOut","duration":1,"delay":1.5}'></span></a></div>
+            </div>
+        </section>
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="pt-3 pt-lg-5 pb-6 pb-lg-8 text-center" style="scroll-margin-top:-25px" id="about-us">
+            <div class="container">
+                <div class="row mb-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="col">
+                        <div class="overflow-hidden">
+                            <h2 class="fs-sm-5 mb-2" data-zanim-xs='{"duration":1.5,"delay":0}'>about us</h2>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p class="text-uppercase fs--1 text-black ls-1 mb-0" data-zanim-xs='{"duration":1.5,"delay":0.1}'>Our System, in the simplest terms</p>
+                        </div>
+                        <div class="overflow-hidden">
+                            <hr class="hr-short border-black" data-zanim-xs='{"duration":1.5,"delay":0.2}' />
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-md-end">
+                        <h5 class="ls-2 mb-3"> We're Innovative</h5>
+                        <p class="mb-0">Our system is designed with cutting-edge technology<br class="d-none d-xl-block" /> to detect and prevent cyber threats efficiently.<br class="d-none d-xl-block" /> Ensuring robust security for a safer<br class="d-none d-sm-block" /> digital space.</p>
+                    </div>
+                    <div class="col-md-4 px-lg-4 my-4 my-md-0"><img class="rounded w-100 w-sm-75 w-md-100" src="{% static 'img/about.jpg' %}" alt="" /></div>
+                    <div class="col-md-4 text-md-start">
+                        <h5 class="ls-2 mb-3">We're Dedicated</h5>
+                        <p class="mb-0">Our team works tirelessly to create  a secure <br class="d-none d-xl-block" />digital environment,ensuring continuous <br class="d-none d-xl-block" />protection against evolving <br class="d-none d-sm-block" />cyber threats.</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section id="features">
+            <div class="container">
+                <div class="row text-center mb-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="col">
+                        <div class="overflow-hidden">
+                            <h2 class="fs-sm-5 mb-2" data-zanim-xs='{"duration":1.5,"delay":0}'>Why is Threat Detection Important?</h2>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p class="fs--1 text-uppercase text-black ls-1 mb-0" data-zanim-xs='{"duration":1.5,"delay":0.1}'><br class="d-block d-sm-none" />let's know</p>
+                        </div>
+                        <div class="overflow-hidden">
+                            <hr class="hr-short bg-black" data-zanim-xs='{"duration":1.5,"delay":0.2}' />
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center text-md-start">
+                    <div class="col-sm-6 col-md-4 px-lg-4 pt-md-3 pt-lg-0 pb-lg-4 h-100 feature-item position-relative">
+                        <h5 class="ps-lg-3">Rising Cyber Threats</h5>
+                        <hr class="hr-feature d-block d-sm-none bg-black mt-0 mb-2" />
+                        <div class="border-lg-top border-lg-end py-lg-3 ps-lg-0 line-indicator line-indicator-top line-indicator-top-1">
+                            <div class="checked-indicator checked-indicator-top"><span class="fas fa-check" data-fa-transform="shrink-2"></span></div>
+                            <p class="px-lg-3 mb-0">Attacks are growing more <br class="d-block d-sm-none" /> advanced, putting sensitive data at risk.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 px-lg-4 pt-3 pt-sm-0 pt-md-3 pt-lg-0 pb-lg-4 h-100 feature-item position-relative">
+                        <h5 class="ps-lg-3">Prevents Data Breaches</h5>
+                        <hr class="hr-feature d-block d-sm-none border-black mt-0 mb-2" />
+                        <div class="border-lg-top border-lg-end py-lg-3 ps-lg-0 line-indicator line-indicator-top line-indicator-top-2">
+                            <div class="checked-indicator checked-indicator-top"><span class="fas fa-check" data-fa-transform="shrink-2"></span></div>
+                            <p class="px-lg-3 mb-md-0">Detects threats early<br class="d-block d-sm-none" />to stop security breaches.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 px-lg-4 pt-3 pt-lg-0 pb-lg-4 h-100 feature-item position-relative">
+                        <h5 class="ps-lg-3">Reduces Financial Losses</h5>
+                        <hr class="hr-feature d-block d-sm-none border-black mt-0 mb-2" />
+                        <div class="border-lg-top border-lg-end py-lg-3 ps-lg-0 line-indicator line-indicator-top line-indicator-top-3">
+                            <div class="checked-indicator checked-indicator-top"><span class="fas fa-check" data-fa-transform="shrink-2"></span></div>
+                            <p class="px-lg-3 mb-md-0">Avoids costly damages, fines, <br class="d-block d-sm-none" /> and reputational harm.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 my-3 d-none d-md-block">
+                        <div class="row justify-content-center">
+                            <div class="col-10 p-0"><img class="w-100" src="{% static 'img/illustration/WHY.jpg' %}" alt="" /></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 px-lg-4 pt-3 pt-lg-4 feature-item position-relative">
+                        <div class="border-lg-bottom border-lg-end pt-0 py-lg-3 line-indicator line-indicator-bottom line-indicator-bottom-1">
+                            <div class="checked-indicator checked-indicator-bottom"><span class="fas fa-check" data-fa-transform="shrink-2"></span></div>
+                            <h5 class="mb-lg-0 ps-lg-3">Real-time Monitoring</h5>
+                            <hr class="hr-feature d-block d-sm-none border-black mt-0 mb-2" />
+                        </div>
+                        <p class="px-lg-3 pt-lg-3 mb-md-0">Identifies and responds <br class="d-block d-sm-none" />to threats <br class="d-none d-md-block d-xl-none" />instantly.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 pt-3 pt-lg-4 px-lg-4 feature-item position-relative">
+                        <div class="border-lg-bottom border-lg-end pt-0 py-lg-3 line-indicator line-indicator-bottom line-indicator-bottom-2">
+                            <div class="checked-indicator checked-indicator-bottom"><span class="fas fa-check" data-fa-transform="shrink-2"></span></div>
+                            <h5 class="mb-lg-0 ps-lg-3">Ensures Compliance</h5>
+                            <hr class="hr-feature d-block d-sm-none border-black mt-0 mb-2" />
+                        </div>
+                        <p class="px-lg-3 pt-lg-3 mb-0">Meets industry <br class="d-block d-sm-none" /> security regulations.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 pt-3 pt-lg-4 px-lg-4 feature-item position-relative">
+                        <div class="border-lg-bottom border-lg-end pt-0 py-lg-3 line-indicator line-indicator-bottom line-indicator-bottom-3">
+                            <div class="checked-indicator checked-indicator-bottom"><span class="fas fa-check" data-fa-transform="shrink-2"></span></div>
+                            <h5 class="mb-lg-0 ps-lg-3">Proactive Defense</h5>
+                            <hr class="hr-feature d-block d-sm-none border-black mt-0 mb-2" />
+                        </div>
+                        <p class="px-lg-3 pt-lg-3 mb-0">Adapts to evolving cyber <br class="d-block d-sm-none" /> threats for stronger protection.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="py-7 text-center" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+            <div class="bg-holder overlay" style="background-image:url(static/img/backgrounds/do.jpg);"></div>
+            <!--/.bg-holder-->
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col">
+                        <div class="overflow-hidden">
+                            <h2 class="fs-sm-5 text-white mb-1 mb-lg-2" data-zanim-xs='{"duration":1.5,"delay":0}'>do you know</h2>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p class="fs--1 text-uppercase text-white ls-1 mb-0" data-zanim-xs='{"duration":1.5,"delay":0.1}'>Some Cool Facts About Threat Detection</p>
+                        </div>
+                        <div class="overflow-hidden">
+                            <hr class="hr-short bg-white" data-zanim-xs='{"duration":1.5,"delay":0.2}' />
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-md-4 mb-4 mb-lg-0">
+                                <div class="overflow-hidden"><img class="fun-fact-icon mb-2" src="{% static 'img/line-icons/icons/download.svg' %}" alt="" /></div>
+                                <div class="overflow-hidden">
+                                    <h3 class="text-white font-base fw-normal mb-1" data-countup='{"endValue":7781914}'>0</h3>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <p class="text-uppercase text-white fw-semi-bold ls-2 mb-0"> Cyber threats detected and neutralized worldwide.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4 mb-lg-0">
+                                <div class="overflow-hidden"><img class="fun-fact-icon mb-2" src="{% static 'img/line-icons/icons/clock.svg' %}" alt="" /></div>
+                                <div class="overflow-hidden">
+                                    <h3 class="text-white font-base fw-normal mb-1" data-countup='{"endValue":370704}'>0</h3>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <p class="text-uppercase text-white fw-semi-bold ls-2 mb-0">Minutes of continuous monitoring to keep systems secure.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="overflow-hidden"><img class="fun-fact-icon mb-2" src="{% static 'img/line-icons/icons/battery.svg' %}" alt="" /></div>
+                                <div class="overflow-hidden">
+                                    <h3 class="text-white font-base fw-normal mb-1" data-countup='{"endValue":12599}'>0</h3>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <p class="text-uppercase text-white fw-semi-bold ls-2 mb-0">Security incidents analyzed to strengthen defenses.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="text-center" id="services">
+            <div class="container">
+                <div class="row mb-4" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                    <div class="col">
+                        <div class="overflow-hidden">
+                            <h2 class="fs-md-5" data-zanim-xs='{"duration":1.5,"delay":0}'>our services</h2>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p class="fs--1 text-uppercase text-black ls-1 mb-0" data-zanim-xs='{"duration":1.5,"delay":0.1}'>We specialize in IP Analysis, Domain Analysis, Log Analysis, and URL Analysis, offering cutting-edge solutions to enhance cybersecurity and threat detection.</p>
+                        </div>
+                        <div class="overflow-hidden">
+                            <hr class="hr-short bg-black opacity-100" data-zanim-xs='{"duration":1.5,"delay":0.2}' />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 mb-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="overflow-hidden">
+                            <div class="service-item p-3 p-md-4 h-100">
+                                <div class="overflow-hidden">
+                                    <div class="px-4" data-zanim-xs='{"duration":1.5,"delay":"0"}'><img class="service-icon" src="{% static 'img/line-icons/icons/ip.png' %}" alt="" /></div>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <h5 class="fw-normal ls-3 mb-2" data-zanim-xs='{"duration":1.5,"delay":"0.1"}'>IP Analysis</h5>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <p class="fw-normal" data-zanim-xs='{"duration":1.5,"delay":"0.2"}'>Our team conducts in-depth IP analysis,  <br class="d-block d-sm-none">identifying suspicious activities, tracking malicious sources,  <br class="d-block d-sm-none"> and preventing cyber threats.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="overflow-hidden">
+                            <div class="service-item p-3 p-md-4 h-100">
+                                <div class="overflow-hidden">
+                                    <div class="px-4" data-zanim-xs='{"duration":1.5,"delay":"0.2"}'><img class="service-icon" src="{% static 'img/line-icons/icons/domain.png' %}" alt="" /></div>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <h5 class="fw-normal ls-3 mb-2" data-zanim-xs='{"duration":1.5,"delay":"0.30000000000000004"}'>Domain Analysis</h5>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <p class="fw-normal" data-zanim-xs='{"duration":1.5,"delay":"0.4"}'>We analyze domain reputations, detect  <br class='d-block d-sm-none'> phishing domains, and help secure businesses <br class='d-block d-sm-none'>from potential cyber attacks.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="overflow-hidden">
+                            <div class="service-item p-3 p-md-4 h-100">
+                                <div class="overflow-hidden">
+                                    <div class="px-4" data-zanim-xs='{"duration":1.5,"delay":"0.3"}'><img class="service-icon" src="{% static 'img/line-icons/icons/log.png' %}" alt="" /></div>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <h5 class="fw-normal ls-3 mb-2" data-zanim-xs='{"duration":1.5,"delay":"0.4"}'>Log Analysis</h5>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <p class="fw-normal" data-zanim-xs='{"duration":1.5,"delay":"0.5"}'>Our automated log analysis system  <br class='d-block d-sm-none'> processes security logs efficiently, detecting anomalies  <br class='d-block d-sm-none'> and improving incident response times.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="overflow-hidden">
+                            <div class="service-item p-3 p-md-4 h-100">
+                                <div class="overflow-hidden">
+                                    <div class="px-4" data-zanim-xs='{"duration":1.5,"delay":"0.3"}'><img class="service-icon" alt="" /></div>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <h5 class="fw-normal ls-3 mb-2" data-zanim-xs='{"duration":1.5,"delay":"0.4"}'></h5>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <p class="fw-normal" data-zanim-xs='{"duration":1.5,"delay":"0.5"}'> <br class='d-block d-sm-none'></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="overflow-hidden">
+                            <div class="service-item p-3 p-md-4 h-100">
+                                <div class="overflow-hidden">
+                                    <div class="px-4" data-zanim-xs='{"duration":1.5,"delay":"0.4"}'><img class="service-icon" src="{% static 'img/line-icons/icons/url.png' %}" alt="" /></div>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <h5 class="fw-normal ls-3 mb-2" data-zanim-xs='{"duration":1.5,"delay":"0.5"}'>URL Analysis</h5>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <p class="fw-normal" data-zanim-xs='{"duration":1.5,"delay":"0.6000000000000001"}'>We provide advanced URL analysis solutions, <br class='d-block d-sm-none'> identifying malicious links, preventing phishing attacks, <br class='d-block d-sm-none'> and ensuring safe web navigation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="overflow-hidden">
+                            <div class="service-item p-3 p-md-4 h-100">
+                                <div class="overflow-hidden">
+                                    <div class="px-4" data-zanim-xs='{"duration":1.5,"delay":"0.5"}'><img class="service-icon" alt="" /></div>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <h5 class="fw-normal ls-3 mb-2" data-zanim-xs='{"duration":1.5,"delay":"0.6"}'></h5>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <p class="fw-normal" data-zanim-xs='{"duration":1.5,"delay":"0.7"}'><br class='d-block d-sm-none'> <br class='d-block d-sm-none'></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="py-6">
+            <div class="bg-holder overlay overlay-1" style="background-image:url(static/img/backgrounds/per.jpg);background-position: top;"></div>
+            <!--/.bg-holder-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4 text-center" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="overflow-hidden">
+                            <h2 class="fs-md-5 text-white" data-zanim-xs='{"duration":1.5,"delay":0}'>Our Performance</h2>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p class="fs--1 text-uppercase text-white ls-1 mb-0" data-zanim-xs='{"duration":1.5,"delay":0.1}'>Be surprised seeing the final outcome with us.</p>
+                        </div>
+                        <div class="overflow-hidden">
+                            <hr class="hr-short bg-white" data-zanim-xs='{"duration":1.5,"delay":0.2}' />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-4 px-sm-3 px-lg-5 mb-4 mb-md-5 mb-lg-0" style="padding-top: 5px;">
+                        <div class="progress-line text-white" data-progress-line="data-progress-line" data-options='{"progress":90}'>
+                            <p class="mb-0 text-start">Threat Detection Accuracy</p>
+                        </div>
+                        <div class="progress-line text-white" data-progress-line="data-progress-line" data-options='{"progress":73}'>
+                            <p class="mb-0 text-start">Log Processing Efficiency</p>
+                        </div>
+                        <div class="progress-line text-white" data-progress-line="data-progress-line" data-options='{"progress":87}'>
+                            <p class="mb-0 text-start">Cybersecurity Threat Intelligence</p>
+                        </div>
+                        <div class="progress-line text-white" data-progress-line="data-progress-line" data-options='{"progress":95}'>
+                            <p class="mb-0 text-start">User Safety & Satisfaction</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-lg-4">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item"><a class="nav-link fs-0 text-white ls-1 active" id="home-tab" data-bs-toggle="tab" href="#tab-home" role="tab" aria-controls="tab-home" aria-selected="true">UX/UI</a></li>
+                            <li class="nav-item"><a class="nav-link fs-0 text-white ls-1" id="profile-tab" data-bs-toggle="tab" href="#tab-profile" role="tab" aria-controls="tab-profile" aria-selected="false">Support</a></li>
+                            <li class="nav-item"><a class="nav-link fs-0 text-white ls-1l" id="contact-tab" data-bs-toggle="tab" href="#tab-contact" role="tab" aria-controls="tab-contact" aria-selected="false">Ai</a></li>
+                        </ul>
+                        <div class="tab-content pt-4" id="myTabContent">
+                            <div class="tab-pane fade show active" id="tab-home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="d-flex align-items-center"><img src="{% static 'img/line-icons/diamond.svg' %}" width="56" alt="" />
+                                    <div class="flex-1 ms-3 text-light">We aim to create a user-friendly interface that enhances threat monitoring, analysis, and response. By balancing functionality with simplicity, this project helps students understand how cybersecurity professionals detect, analyze, and mitigate cyber threats effectively.</div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="d-flex align-items-center"><img src="{% static 'img/line-icons/customer-service.svg' %}" width="56" alt="" />
+                                    <div class="flex-1 ms-3 text-light">Our project provides dedicated support to help students understand and implement Threat Detection Systems effectively. Whether it's UI/UX design, threat analysis, or system deployment, guidance is available to enhance learning.</div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <div class="d-flex align-items-center"><img src="{% static 'img/line-icons/monitor-3.svg' %}" width="56" alt="" />
+                                    <div class="flex-1 ms-3 text-light">AI enhances Threat Detection Systems by enabling real-time analysis, anomaly detection, and automated threat response. This project explores how machine learning and predictive analytics improve cybersecurity efficiency</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col mb-4 text-center" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                        <div class="overflow-hidden">
+                            <h2 class="fs-md-5" data-zanim-xs='{"duration":1.5,"delay":0}'>how we did it</h2>
+                        </div>
+                        <div class="overflow-hidden">
+                            <p class="fs--1 text-uppercase text-black ls-1 mb-0" data-zanim-xs='{"duration":1.5,"delay":0.1}'>working together to achieve great results</p>
+                        </div>
+                        <div class="overflow-hidden">
+                            <hr class="hr-short bg-black" data-zanim-xs='{"duration":1.5,"delay":0.2}' />
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-9 px-5">
+                        <div class="d-flex process-item border-dashed-start border-600 pb-5" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                            <div class="process-icon-circle"><img class="process-icon" src="{% static 'img/line-icons/medical-result.svg' %}" alt="" /></div>
+                            <div class="flex-1 ms-4 ms-sm-5">
+                                <h5 class="ls-2"><span class="bg-white pe-3">analysis &amp; planning</span></h5>
+                                <p class="mb-0 pe-lg-5" data-zanim-xs='{"from":{"opacity":0},"to":{"opacity":1},"duration":1,"delay":0.2}'>Identify cyber threats like malicious IPs, phishing domains, suspicious logs, and harmful URLs. Define technical and functional specifications for effective threat detection. Integrate security frameworks and best practices to ensure cybersecurity compliance.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex process-item border-dashed-start border-600 border-md-start-0 border-md-dashed-end pb-5" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                            <div class="flex-1 position-relative ms-4 ms-sm-5 ms-md-0 me-md-5">
+                                <h5 class="text-md-end"><span class="bg-white ps-md-3">Design &amp; Development</span><span class="process-devider border-end-0 start-0"></span></h5>
+                                <p class="mb-0 text-md-end ps-lg-6" data-zanim-xs='{"from":{"opacity":0},"to":{"opacity":1},"duration":1,"delay":0.3}'>After analysis, the system enters design and development, implementing IP, Domain, Log, and URL Analysis. A user-friendly interface enables security professionals to monitor and respond to threats efficiently. Real-time data processing, automated alerts, and encryption ensure secure operations.</p>
+                            </div>
+                            <div class="process-icon-circle"><img class="process-icon" src="{% static 'img/line-icons/web-programming.svg' %}" alt="" /></div>
+                        </div>
+                        <div class="d-flex process-item border-dashed-start border-600 pb-5" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                            <div class="process-icon-circle"><img class="process-icon" src="{% static 'img/line-icons/technical-support.svg' %}" alt="" /></div>
+                            <div class="flex-1 position-relative ms-4 ms-sm-5"><span class="process-devider border-start-0 end-0"></span>
+                                <h5 class="ls-2"><span class="bg-white pe-3">Testing &amp; Fixing</span></h5>
+                                <p class="mb-0 pe-lg-5" data-zanim-xs='{"from":{"opacity":0},"to":{"opacity":1},"duration":1,"delay":0.2}'>After building, Rigorous testing is conducted to ensure system accuracy and reliability using datasets and simulated cyberattacks. False positives are minimized, vulnerabilities identified, and performance optimized. This phase ensures the system functions correctly under various conditions before deployment.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex process-item" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                            <div class="flex-1 position-relative ms-4 ms-sm-5 ms-md-0 me-md-5">
+                                <h5 class="text-md-end"><span class="bg-white ps-md-3">LAUNCH &amp; GROW</span><span class="process-devider border-end-0 start-0"></span></h5>
+                                <p class="mb-0 text-md-end ps-lg-5" data-zanim-xs='{"from":{"opacity":0},"to":{"opacity":1},"duration":1,"delay":0.3}'> In the final step, The Threat Detection System is deployed on a secure local environment based on the use case. Security professionals monitor network activity, analyze logs in real time, and update detection rules for efficiency. Continuous improvements, including security updates and machine learning, help combat evolving cyber threats.</p>
+                            </div>
+                            <div class="process-icon-circle"><img class="process-icon" src="{% static 'img/line-icons/server.svg' %}" alt="" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="py-6 text-center bg-1100" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+            <div class="bg-holder overlay overlay-0" style="background-image:url(static/img/backgrounds/get.jpg);background-position: bottom;"></div>
+            <!--/.bg-holder-->
+            <div class="container">
+                <div class="overflow-hidden">
+                    <h3 class="font-base text-white" data-zanim-xs='{"duration":1.5,"delay":0}'>Excited To Start <br class="d-block d-sm-none" />Scan Now</h3>
+                </div>
+                <div data-zanim-xs='{"from":{"opacity":0,"y":30},"to":{"opacity":1,"y":0},"duration":1.5,"delay":0.1}'><a class="btn btn-sm btn-outline-light hvr-sweep-top mt-3" href="#">Let's get started </a></div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+            <section id="contact">
+                <div class="container">
+                    <!-- Title -->
+                    <div class="row">
+                        <div class="col text-center mb-4">
+                            <div class="overflow-hidden">
+                                <h2 class="fs-md-5">Drop Us A Line</h2>
+                            </div>
+                            <div class="overflow-hidden">
+                                <p class="fs--1 text-uppercase text-black ls-1 mb-0">We are happy to hear from you anytime</p>
+                            </div>
+                            <div class="overflow-hidden">
+                                <hr class="hr-short border-black" />
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Form Section -->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <h5 class="mb-3">Feel free to drop us a line!</h5>
+                            <form method="POST" role="form" class="zform text-left">
+                                {% csrf_token %}
+                                <div class="form-group mb-3">
+                                    <input type="text" class="fs-0 form-control" id="user_name" name="name"
+                                           placeholder="Your Name" value="{{ form.name.value|default:'' }}" required>
+                                    {% if form.name.errors %}
+                                    <div class="text-danger">{{ form.name.errors }}</div>
+                                    {% endif %}
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="email" class="fs-0 form-control" id="your_email" name="email"
+                                           placeholder="Email Address" value="{{ form.email.value|default:'' }}" required>
+                                    {% if form.email.errors %}
+                                    <div class="text-danger">{{ form.email.errors }}</div>
+                                    {% endif %}
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="tel" class="fs-0 form-control" id="phone" name="phone"
+                                           placeholder="Phone Number" value="{{ form.phone.value|default:'' }}">
+                                    {% if form.phone.errors %}
+                                    <div class="text-danger">{{ form.phone.errors }}</div>
+                                    {% endif %}
+                                </div>
+                                <div class="form-group mb-3">
+                                    <textarea id="user_message" class="fs-0 form-control contact-message"
+                                              name="message" rows="8" placeholder="Type your message here" required>
+                                              {{ form.message.value|default:'' }}</textarea>
+                                    {% if form.message.errors %}
+                                    <div class="text-danger">{{ form.message.errors }}</div>
+                                    {% endif %}
+                                </div>
+                                <div class="zform-feedback d-grid">
+                                    <button type="submit" class="btn btn-dark hvr-sweep-top">Give us a shot</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            
+                    <!-- Contact Info Section -->
+                    <div class="row justify-content-center text-center mt-5">
+                        <div class="col-12">
+                            <h5 class="mb-3">Connect With Us</h5>
+                        </div>
+                        <div class="col-auto mb-3" style="width: 100%">
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="fas fa-location-arrow text-700 me-2"></span>
+                                    <div>
+                                        <p class="mb-1 text-700"><strong>Vulnx</strong></p>
+                                        <p class="mb-0 text-600">Kerala, India</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="fas fa-phone text-700 me-2"></span>
+                                    <div>
+                                        <a class="text-600 d-block" href="tel:+919544115854">+91 9999999991</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="fas fa-envelope text-700 me-2"></span>
+                                    <a class="text-600" href="mailto:muthufasal121@gmail.com">vulnx2025@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
+    <!--===============================================-->
+    <!--    Footer-->
+    <!--===============================================-->
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="bg-1100 py-6 pb-9 px-3 px-lg-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 pe-lg-4 mb-4 mb-lg-0">
+                    <h5 class="text-white mb-3">Our Mission</h5>
+                    <p class="text-700">Our mission is to develop advanced and effective threat detection solutions to enhance cybersecurity. We focus on providing reliable, innovative, and research-driven approaches to identifying and mitigating cyber threats. Through continuous learning and exploration of new technologies, we aim to contribute to a safer digital environment while expanding our knowledge in the field of cybersecurity.</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-6 col-md-3 ps-lg-4 mb-4 mb-lg-0">
+                            <h5 class="text-white mb-3">Home</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1"><a class="text-700 hover-color-white" href="#about-us">About</a></li>
+                                <li class="mb-1"><a class="text-700 hover-color-white" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-3 ps-4 mb-4 mb-lg-0">
+                            <h5 class="text-white mb-3">System</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1"><a class="text-700 hover-color-white" href="#services">Services</a></li>
+                                <li class="mb-1"><a class="text-700 hover-color-white" href="#features">Features</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 ps-md-4">
+                            <h5 class="text-white mb-3">Our System</h5>
+                            <p class="text-700"></p>
+                                <p class="text-700">Our system provides advanced threat detection, identifying and mitigating cyber threats in real time. It ensures continuous protection with intelligent analysis and cutting-edge technology. Designed with a user-friendly interface, it is accessible to both beginners and experts. Regular updates enhance detection accuracy, keeping security strong against evolving threats.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of .container-->
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+    <footer class="footer text-center bg-black py-3 position-absolute w-100 bottom-0">
+        <div class="container">
+                    <p class="mb-0">Threat Detection System &copy; 2025</p>
+        </div>
+    </footer><a class="btn-back-to-top" href="#top"><img src="{% static 'img/line-icons/upload-arrow.svg' %}" width="8" alt=""></a>
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+
+   
+        
+    <script src="{% static 'vendors/popper/popper.min.js' %}"></script>
+    <script src="{% static 'vendors/bootstrap/bootstrap.min.js' %}"></script>
+    <script src="{% static 'vendors/anchorjs/anchor.min.js' %}"></script>
+    <script src="{% static 'vendors/is/is.min.js' %}"></script>
+    <script src="{% static 'vendors/bigpicture/BigPicture.js' %}"></script>
+    <script src="{% static 'vendors/countup/countUp.umd.js' %}"></script>
+    <script src="{% static 'vendors/progressbar/progressbar.min.js' %}"></script>
+    <script src="{% static 'vendors/hover-dir/hoverDir.min.js' %}"></script>
+    <script src="{% static 'vendors/isotope-layout/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'vendors/isotope-packery/packery-mode.pkgd.min.js' %}"></script>
+    <script src="{% static 'vendors/swiper/swiper-bundle.min.js' %}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARdVcREeBK44lIWnv5-iPijKqvlSAVwbw&callback=initMap" async></script>
+    <script src="{% static 'vendors/fontawesome/all.min.js' %}"></script>
+    <script src="{% static 'vendors/lodash/lodash.min.js' %}"></script>
+    <script src="{% static 'vendors/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'vendors/gsap/gsap.js' %}"></script>
+    <script src="{% static 'vendors/gsap/customEase.js' %}"></script>
+    <script src="{% static 'js/theme.js' %}"></script>
+</body>
+
+</html>

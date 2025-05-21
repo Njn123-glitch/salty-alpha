@@ -1,0 +1,30 @@
+
+{% block content %}
+<h2>Threat Detection List</h2>
+<a href="{% url 'add_threat' %}">➕ Add New Threat</a>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Log ID</th>
+            <th>Threat Type</th>
+            <th>Severity</th>
+            <th>Detected At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for threat in threats %}
+        <tr>
+            <td>{{ threat.log.id }}</td>
+            <td>{{ threat.threat_type }}</td>
+            <td>{{ threat.severity }}</td>
+            <td>{{ threat.detected_at }}</td>
+            <td>
+                <a href="{% url 'update_threat' threat.id %}">✏️ Edit</a> |
+                <a href="{% url 'delete_threat' threat.id %}">🗑️ Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

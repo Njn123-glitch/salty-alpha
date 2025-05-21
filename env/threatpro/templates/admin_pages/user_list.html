@@ -1,0 +1,45 @@
+
+{% extends "admin_pages/base.html" %}
+{% load static %}
+
+{% block content %}
+ 
+            <div class="col-lg-11 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">All Registered Users</h4>
+               
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Is Superuser</th>
+                            <th>Delete User</th>
+                 
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {% for user in users %}
+                        <tr>
+                            <td>{{ user.username }}</td>
+                            <td>{{ user.email }}</td>
+                            <td>{{ user.phone }}</td>
+                            <td>{{ user.is_superuser }}</td>
+                        
+                         <td style="width: 600px; ">
+                            <a href="{% url 'delete_user' user.id %}"><button><i class="mdi mdi-delete" aria-hidden="true"></i> </button></a> 
+                          </td>
+                        </tr>
+                        {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endblock %}

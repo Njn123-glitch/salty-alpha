@@ -1,0 +1,10 @@
+
+{% block content %}
+<h2>Update Threat Detection</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Update</button>
+</form>
+<a href="{% url 'threat_list' %}">⬅ Back to List</a>
+{% endblock %}

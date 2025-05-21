@@ -1,0 +1,38 @@
+{% block content %}
+{% load static %}
+<h2>Dashboard</h2>
+
+<h3>Your Uploaded Logs</h3>
+<ul>
+    {% for log in logs %}
+    <li>{{ log.log_file.name }} - {{ log.uploaded_at }}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'upload_log_file' %}">Upload New Log</a>
+
+<h3>Threat Analysis</h3>
+<img src="data:image/png;base64,{{ threat_chart }}" alt="Threat Analysis Chart">
+
+<h3>Suspicious Activities Detected</h3>
+{% if threats %}
+    <ul>
+
+        {% for threat in threats %}
+        <li><b>{{ threat.threat_type }}</b> - Severity: {{ threat.severity }} ({{ threat.detected_at }})</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No suspicious activity detected.</p>
+{% endif %}
+
+<h3>Your Reported Incidents</h3>
+<ul>
+    {% for incident in incidents %}
+    <li>{{ incident.title }} - {{ incident.status }}</li>
+    {% endfor %}
+</ul>
+
+<a href="{% url 'report_incident' %}">Report an Incident</a>
+
+{% endblock %}
+

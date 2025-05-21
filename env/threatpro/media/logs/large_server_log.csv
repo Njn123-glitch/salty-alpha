@@ -1,0 +1,1001 @@
+Line id,Time,Level,Content,Event Id,Event Templte
+1,Sun Mar 02 08:00:00 2025,error,mod_jk child worke,E1,dhsfvsdfychzsd
+2,Sun Mar 02 08:00:05 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+3,Sun Mar 02 08:00:10 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+4,Sun Mar 02 08:00:15 2025,error,[client 192.168.1.250] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+5,Sun Mar 02 08:00:20 2025,notice,jk2_init() Found child 1000 in scoreboard slot 10,E1,dhsfvsdfychzsd
+6,Sun Mar 02 08:00:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+7,Sun Mar 02 08:00:30 2025,error,[client 203.0.113.203] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+8,Sun Mar 02 08:00:35 2025,error,[client 192.168.1.23] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+9,Sun Mar 02 08:00:40 2025,notice,jk2_init() Found child 1001 in scoreboard slot 8,E1,dhsfvsdfychzsd
+10,Sun Mar 02 08:00:45 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+11,Sun Mar 02 08:00:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+12,Sun Mar 02 08:00:55 2025,error,[client 198.51.100.102] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+13,Sun Mar 02 08:01:00 2025,error,[client 192.168.1.200] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+14,Sun Mar 02 08:01:05 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+15,Sun Mar 02 08:01:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+16,Sun Mar 02 08:01:15 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+17,Sun Mar 02 08:01:20 2025,notice,jk2_init() Found child 1002 in scoreboard slot 8,E1,dhsfvsdfychzsd
+18,Sun Mar 02 08:01:25 2025,notice,jk2_init() Found child 1003 in scoreboard slot 6,E1,dhsfvsdfychzsd
+19,Sun Mar 02 08:01:30 2025,notice,jk2_init() Found child 1004 in scoreboard slot 6,E1,dhsfvsdfychzsd
+20,Sun Mar 02 08:01:35 2025,notice,jk2_init() Found child 1005 in scoreboard slot 7,E1,dhsfvsdfychzsd
+21,Sun Mar 02 08:01:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+22,Sun Mar 02 08:01:45 2025,error,[client 203.0.113.113] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+23,Sun Mar 02 08:01:50 2025,error,[client 203.0.113.215] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+24,Sun Mar 02 08:01:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+25,Sun Mar 02 08:02:00 2025,error,[client 198.51.100.95] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+26,Sun Mar 02 08:02:05 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+27,Sun Mar 02 08:02:10 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+28,Sun Mar 02 08:02:15 2025,error,[client 198.51.100.235] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+29,Sun Mar 02 08:02:20 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+30,Sun Mar 02 08:02:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+31,Sun Mar 02 08:02:30 2025,notice,jk2_init() Found child 1006 in scoreboard slot 7,E1,dhsfvsdfychzsd
+32,Sun Mar 02 08:02:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+33,Sun Mar 02 08:02:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+34,Sun Mar 02 08:02:45 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+35,Sun Mar 02 08:02:50 2025,notice,jk2_init() Found child 1007 in scoreboard slot 9,E1,dhsfvsdfychzsd
+36,Sun Mar 02 08:02:55 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+37,Sun Mar 02 08:03:00 2025,error,[client 203.0.113.81] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+38,Sun Mar 02 08:03:05 2025,notice,jk2_init() Found child 1008 in scoreboard slot 10,E1,dhsfvsdfychzsd
+39,Sun Mar 02 08:03:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+40,Sun Mar 02 08:03:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+41,Sun Mar 02 08:03:20 2025,error,[client 172.16.0.68] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+42,Sun Mar 02 08:03:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+43,Sun Mar 02 08:03:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+44,Sun Mar 02 08:03:35 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+45,Sun Mar 02 08:03:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+46,Sun Mar 02 08:03:45 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+47,Sun Mar 02 08:03:50 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+48,Sun Mar 02 08:03:55 2025,error,[client 10.0.0.108] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+49,Sun Mar 02 08:04:00 2025,notice,jk2_init() Found child 1009 in scoreboard slot 8,E1,dhsfvsdfychzsd
+50,Sun Mar 02 08:04:05 2025,error,[client 10.0.0.208] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+51,Sun Mar 02 08:04:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+52,Sun Mar 02 08:04:15 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+53,Sun Mar 02 08:04:20 2025,error,[client 203.0.113.66] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+54,Sun Mar 02 08:04:25 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+55,Sun Mar 02 08:04:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+56,Sun Mar 02 08:04:35 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+57,Sun Mar 02 08:04:40 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+58,Sun Mar 02 08:04:45 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+59,Sun Mar 02 08:04:50 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+60,Sun Mar 02 08:04:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+61,Sun Mar 02 08:05:00 2025,error,[client 203.0.113.94] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+62,Sun Mar 02 08:05:05 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+63,Sun Mar 02 08:05:10 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+64,Sun Mar 02 08:05:15 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+65,Sun Mar 02 08:05:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+66,Sun Mar 02 08:05:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+67,Sun Mar 02 08:05:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+68,Sun Mar 02 08:05:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+69,Sun Mar 02 08:05:40 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+70,Sun Mar 02 08:05:45 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+71,Sun Mar 02 08:05:50 2025,notice,jk2_init() Found child 1010 in scoreboard slot 10,E1,dhsfvsdfychzsd
+72,Sun Mar 02 08:05:55 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+73,Sun Mar 02 08:06:00 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+74,Sun Mar 02 08:06:05 2025,notice,jk2_init() Found child 1011 in scoreboard slot 9,E1,dhsfvsdfychzsd
+75,Sun Mar 02 08:06:10 2025,error,[client 192.168.1.161] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+76,Sun Mar 02 08:06:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+77,Sun Mar 02 08:06:20 2025,error,[client 10.0.0.210] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+78,Sun Mar 02 08:06:25 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+79,Sun Mar 02 08:06:30 2025,error,[client 203.0.113.229] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+80,Sun Mar 02 08:06:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+81,Sun Mar 02 08:06:40 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+82,Sun Mar 02 08:06:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+83,Sun Mar 02 08:06:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+84,Sun Mar 02 08:06:55 2025,notice,jk2_init() Found child 1012 in scoreboard slot 8,E1,dhsfvsdfychzsd
+85,Sun Mar 02 08:07:00 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+86,Sun Mar 02 08:07:05 2025,notice,jk2_init() Found child 1013 in scoreboard slot 7,E1,dhsfvsdfychzsd
+87,Sun Mar 02 08:07:10 2025,error,[client 192.168.1.68] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+88,Sun Mar 02 08:07:15 2025,error,[client 172.16.0.33] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+89,Sun Mar 02 08:07:20 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+90,Sun Mar 02 08:07:25 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+91,Sun Mar 02 08:07:30 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+92,Sun Mar 02 08:07:35 2025,notice,jk2_init() Found child 1014 in scoreboard slot 8,E1,dhsfvsdfychzsd
+93,Sun Mar 02 08:07:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+94,Sun Mar 02 08:07:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+95,Sun Mar 02 08:07:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+96,Sun Mar 02 08:07:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+97,Sun Mar 02 08:08:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+98,Sun Mar 02 08:08:05 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+99,Sun Mar 02 08:08:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+100,Sun Mar 02 08:08:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+101,Sun Mar 02 08:08:20 2025,error,[client 192.168.1.22] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+102,Sun Mar 02 08:08:25 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+103,Sun Mar 02 08:08:30 2025,notice,jk2_init() Found child 1015 in scoreboard slot 10,E1,dhsfvsdfychzsd
+104,Sun Mar 02 08:08:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+105,Sun Mar 02 08:08:40 2025,notice,jk2_init() Found child 1016 in scoreboard slot 9,E1,dhsfvsdfychzsd
+106,Sun Mar 02 08:08:45 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+107,Sun Mar 02 08:08:50 2025,error,[client 198.51.100.6] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+108,Sun Mar 02 08:08:55 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+109,Sun Mar 02 08:09:00 2025,notice,jk2_init() Found child 1017 in scoreboard slot 8,E1,dhsfvsdfychzsd
+110,Sun Mar 02 08:09:05 2025,error,[client 192.168.1.28] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+111,Sun Mar 02 08:09:10 2025,notice,jk2_init() Found child 1018 in scoreboard slot 7,E1,dhsfvsdfychzsd
+112,Sun Mar 02 08:09:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+113,Sun Mar 02 08:09:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+114,Sun Mar 02 08:09:25 2025,notice,jk2_init() Found child 1019 in scoreboard slot 8,E1,dhsfvsdfychzsd
+115,Sun Mar 02 08:09:30 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+116,Sun Mar 02 08:09:35 2025,error,[client 10.0.0.233] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+117,Sun Mar 02 08:09:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+118,Sun Mar 02 08:09:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+119,Sun Mar 02 08:09:50 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+120,Sun Mar 02 08:09:55 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+121,Sun Mar 02 08:10:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+122,Sun Mar 02 08:10:05 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+123,Sun Mar 02 08:10:10 2025,error,[client 172.16.0.131] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+124,Sun Mar 02 08:10:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+125,Sun Mar 02 08:10:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+126,Sun Mar 02 08:10:25 2025,notice,jk2_init() Found child 1020 in scoreboard slot 6,E1,dhsfvsdfychzsd
+127,Sun Mar 02 08:10:30 2025,error,[client 203.0.113.129] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+128,Sun Mar 02 08:10:35 2025,notice,jk2_init() Found child 1021 in scoreboard slot 8,E1,dhsfvsdfychzsd
+129,Sun Mar 02 08:10:40 2025,error,[client 192.168.1.184] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+130,Sun Mar 02 08:10:45 2025,error,[client 10.0.0.75] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+131,Sun Mar 02 08:10:50 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+132,Sun Mar 02 08:10:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+133,Sun Mar 02 08:11:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+134,Sun Mar 02 08:11:05 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+135,Sun Mar 02 08:11:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+136,Sun Mar 02 08:11:15 2025,error,[client 192.168.1.168] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+137,Sun Mar 02 08:11:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+138,Sun Mar 02 08:11:25 2025,notice,jk2_init() Found child 1022 in scoreboard slot 8,E1,dhsfvsdfychzsd
+139,Sun Mar 02 08:11:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+140,Sun Mar 02 08:11:35 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+141,Sun Mar 02 08:11:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+142,Sun Mar 02 08:11:45 2025,error,[client 198.51.100.228] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+143,Sun Mar 02 08:11:50 2025,notice,jk2_init() Found child 1023 in scoreboard slot 9,E1,dhsfvsdfychzsd
+144,Sun Mar 02 08:11:55 2025,error,[client 10.0.0.226] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+145,Sun Mar 02 08:12:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+146,Sun Mar 02 08:12:05 2025,error,[client 172.16.0.154] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+147,Sun Mar 02 08:12:10 2025,error,[client 192.168.1.37] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+148,Sun Mar 02 08:12:15 2025,notice,jk2_init() Found child 1024 in scoreboard slot 8,E1,dhsfvsdfychzsd
+149,Sun Mar 02 08:12:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+150,Sun Mar 02 08:12:25 2025,error,[client 172.16.0.148] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+151,Sun Mar 02 08:12:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+152,Sun Mar 02 08:12:35 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+153,Sun Mar 02 08:12:40 2025,error,[client 10.0.0.43] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+154,Sun Mar 02 08:12:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+155,Sun Mar 02 08:12:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+156,Sun Mar 02 08:12:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+157,Sun Mar 02 08:13:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+158,Sun Mar 02 08:13:05 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+159,Sun Mar 02 08:13:10 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+160,Sun Mar 02 08:13:15 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+161,Sun Mar 02 08:13:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+162,Sun Mar 02 08:13:25 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+163,Sun Mar 02 08:13:30 2025,error,[client 172.16.0.160] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+164,Sun Mar 02 08:13:35 2025,notice,jk2_init() Found child 1025 in scoreboard slot 10,E1,dhsfvsdfychzsd
+165,Sun Mar 02 08:13:40 2025,notice,jk2_init() Found child 1026 in scoreboard slot 6,E1,dhsfvsdfychzsd
+166,Sun Mar 02 08:13:45 2025,notice,jk2_init() Found child 1027 in scoreboard slot 6,E1,dhsfvsdfychzsd
+167,Sun Mar 02 08:13:50 2025,notice,jk2_init() Found child 1028 in scoreboard slot 7,E1,dhsfvsdfychzsd
+168,Sun Mar 02 08:13:55 2025,error,[client 192.168.1.199] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+169,Sun Mar 02 08:14:00 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+170,Sun Mar 02 08:14:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+171,Sun Mar 02 08:14:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+172,Sun Mar 02 08:14:15 2025,notice,jk2_init() Found child 1029 in scoreboard slot 10,E1,dhsfvsdfychzsd
+173,Sun Mar 02 08:14:20 2025,error,[client 203.0.113.88] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+174,Sun Mar 02 08:14:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+175,Sun Mar 02 08:14:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+176,Sun Mar 02 08:14:35 2025,error,[client 203.0.113.139] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+177,Sun Mar 02 08:14:40 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+178,Sun Mar 02 08:14:45 2025,notice,jk2_init() Found child 1030 in scoreboard slot 9,E1,dhsfvsdfychzsd
+179,Sun Mar 02 08:14:50 2025,error,[client 198.51.100.124] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+180,Sun Mar 02 08:14:55 2025,notice,jk2_init() Found child 1031 in scoreboard slot 6,E1,dhsfvsdfychzsd
+181,Sun Mar 02 08:15:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+182,Sun Mar 02 08:15:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+183,Sun Mar 02 08:15:10 2025,notice,jk2_init() Found child 1032 in scoreboard slot 6,E1,dhsfvsdfychzsd
+184,Sun Mar 02 08:15:15 2025,notice,jk2_init() Found child 1033 in scoreboard slot 10,E1,dhsfvsdfychzsd
+185,Sun Mar 02 08:15:20 2025,notice,jk2_init() Found child 1034 in scoreboard slot 9,E1,dhsfvsdfychzsd
+186,Sun Mar 02 08:15:25 2025,error,[client 192.168.1.198] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+187,Sun Mar 02 08:15:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+188,Sun Mar 02 08:15:35 2025,error,[client 198.51.100.228] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+189,Sun Mar 02 08:15:40 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+190,Sun Mar 02 08:15:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+191,Sun Mar 02 08:15:50 2025,error,[client 198.51.100.19] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+192,Sun Mar 02 08:15:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+193,Sun Mar 02 08:16:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+194,Sun Mar 02 08:16:05 2025,notice,jk2_init() Found child 1035 in scoreboard slot 10,E1,dhsfvsdfychzsd
+195,Sun Mar 02 08:16:10 2025,notice,jk2_init() Found child 1036 in scoreboard slot 9,E1,dhsfvsdfychzsd
+196,Sun Mar 02 08:16:15 2025,error,[client 203.0.113.161] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+197,Sun Mar 02 08:16:20 2025,notice,jk2_init() Found child 1037 in scoreboard slot 9,E1,dhsfvsdfychzsd
+198,Sun Mar 02 08:16:25 2025,error,[client 172.16.0.192] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+199,Sun Mar 02 08:16:30 2025,error,[client 198.51.100.50] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+200,Sun Mar 02 08:16:35 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+201,Sun Mar 02 08:16:40 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+202,Sun Mar 02 08:16:45 2025,notice,jk2_init() Found child 1038 in scoreboard slot 9,E1,dhsfvsdfychzsd
+203,Sun Mar 02 08:16:50 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+204,Sun Mar 02 08:16:55 2025,notice,jk2_init() Found child 1039 in scoreboard slot 10,E1,dhsfvsdfychzsd
+205,Sun Mar 02 08:17:00 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+206,Sun Mar 02 08:17:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+207,Sun Mar 02 08:17:10 2025,error,[client 203.0.113.163] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+208,Sun Mar 02 08:17:15 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+209,Sun Mar 02 08:17:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+210,Sun Mar 02 08:17:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+211,Sun Mar 02 08:17:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+212,Sun Mar 02 08:17:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+213,Sun Mar 02 08:17:40 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+214,Sun Mar 02 08:17:45 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+215,Sun Mar 02 08:17:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+216,Sun Mar 02 08:17:55 2025,notice,jk2_init() Found child 1040 in scoreboard slot 7,E1,dhsfvsdfychzsd
+217,Sun Mar 02 08:18:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+218,Sun Mar 02 08:18:05 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+219,Sun Mar 02 08:18:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+220,Sun Mar 02 08:18:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+221,Sun Mar 02 08:18:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+222,Sun Mar 02 08:18:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+223,Sun Mar 02 08:18:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+224,Sun Mar 02 08:18:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+225,Sun Mar 02 08:18:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+226,Sun Mar 02 08:18:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+227,Sun Mar 02 08:18:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+228,Sun Mar 02 08:18:55 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+229,Sun Mar 02 08:19:00 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+230,Sun Mar 02 08:19:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+231,Sun Mar 02 08:19:10 2025,notice,jk2_init() Found child 1041 in scoreboard slot 9,E1,dhsfvsdfychzsd
+232,Sun Mar 02 08:19:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+233,Sun Mar 02 08:19:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+234,Sun Mar 02 08:19:25 2025,error,[client 172.16.0.199] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+235,Sun Mar 02 08:19:30 2025,notice,jk2_init() Found child 1042 in scoreboard slot 10,E1,dhsfvsdfychzsd
+236,Sun Mar 02 08:19:35 2025,notice,jk2_init() Found child 1043 in scoreboard slot 9,E1,dhsfvsdfychzsd
+237,Sun Mar 02 08:19:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+238,Sun Mar 02 08:19:45 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+239,Sun Mar 02 08:19:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+240,Sun Mar 02 08:19:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+241,Sun Mar 02 08:20:00 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+242,Sun Mar 02 08:20:05 2025,error,[client 172.16.0.183] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+243,Sun Mar 02 08:20:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+244,Sun Mar 02 08:20:15 2025,error,[client 172.16.0.54] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+245,Sun Mar 02 08:20:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+246,Sun Mar 02 08:20:25 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+247,Sun Mar 02 08:20:30 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+248,Sun Mar 02 08:20:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+249,Sun Mar 02 08:20:40 2025,notice,jk2_init() Found child 1044 in scoreboard slot 9,E1,dhsfvsdfychzsd
+250,Sun Mar 02 08:20:45 2025,error,[client 172.16.0.106] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+251,Sun Mar 02 08:20:50 2025,notice,jk2_init() Found child 1045 in scoreboard slot 7,E1,dhsfvsdfychzsd
+252,Sun Mar 02 08:20:55 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+253,Sun Mar 02 08:21:00 2025,error,[client 198.51.100.216] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+254,Sun Mar 02 08:21:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+255,Sun Mar 02 08:21:10 2025,notice,jk2_init() Found child 1046 in scoreboard slot 7,E1,dhsfvsdfychzsd
+256,Sun Mar 02 08:21:15 2025,notice,jk2_init() Found child 1047 in scoreboard slot 8,E1,dhsfvsdfychzsd
+257,Sun Mar 02 08:21:20 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+258,Sun Mar 02 08:21:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+259,Sun Mar 02 08:21:30 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+260,Sun Mar 02 08:21:35 2025,error,[client 198.51.100.123] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+261,Sun Mar 02 08:21:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+262,Sun Mar 02 08:21:45 2025,notice,jk2_init() Found child 1048 in scoreboard slot 9,E1,dhsfvsdfychzsd
+263,Sun Mar 02 08:21:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+264,Sun Mar 02 08:21:55 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+265,Sun Mar 02 08:22:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+266,Sun Mar 02 08:22:05 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+267,Sun Mar 02 08:22:10 2025,notice,jk2_init() Found child 1049 in scoreboard slot 6,E1,dhsfvsdfychzsd
+268,Sun Mar 02 08:22:15 2025,notice,jk2_init() Found child 1050 in scoreboard slot 10,E1,dhsfvsdfychzsd
+269,Sun Mar 02 08:22:20 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+270,Sun Mar 02 08:22:25 2025,notice,jk2_init() Found child 1051 in scoreboard slot 8,E1,dhsfvsdfychzsd
+271,Sun Mar 02 08:22:30 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+272,Sun Mar 02 08:22:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+273,Sun Mar 02 08:22:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+274,Sun Mar 02 08:22:45 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+275,Sun Mar 02 08:22:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+276,Sun Mar 02 08:22:55 2025,error,[client 192.168.1.220] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+277,Sun Mar 02 08:23:00 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+278,Sun Mar 02 08:23:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+279,Sun Mar 02 08:23:10 2025,error,[client 192.168.1.236] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+280,Sun Mar 02 08:23:15 2025,notice,jk2_init() Found child 1052 in scoreboard slot 8,E1,dhsfvsdfychzsd
+281,Sun Mar 02 08:23:20 2025,error,[client 198.51.100.61] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+282,Sun Mar 02 08:23:25 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+283,Sun Mar 02 08:23:30 2025,error,[client 203.0.113.179] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+284,Sun Mar 02 08:23:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+285,Sun Mar 02 08:23:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+286,Sun Mar 02 08:23:45 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+287,Sun Mar 02 08:23:50 2025,error,[client 10.0.0.244] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+288,Sun Mar 02 08:23:55 2025,error,[client 192.168.1.213] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+289,Sun Mar 02 08:24:00 2025,error,[client 203.0.113.86] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+290,Sun Mar 02 08:24:05 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+291,Sun Mar 02 08:24:10 2025,error,[client 10.0.0.118] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+292,Sun Mar 02 08:24:15 2025,error,[client 198.51.100.168] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+293,Sun Mar 02 08:24:20 2025,notice,jk2_init() Found child 1053 in scoreboard slot 10,E1,dhsfvsdfychzsd
+294,Sun Mar 02 08:24:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+295,Sun Mar 02 08:24:30 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+296,Sun Mar 02 08:24:35 2025,notice,jk2_init() Found child 1054 in scoreboard slot 9,E1,dhsfvsdfychzsd
+297,Sun Mar 02 08:24:40 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+298,Sun Mar 02 08:24:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+299,Sun Mar 02 08:24:50 2025,notice,jk2_init() Found child 1055 in scoreboard slot 10,E1,dhsfvsdfychzsd
+300,Sun Mar 02 08:24:55 2025,error,[client 198.51.100.3] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+301,Sun Mar 02 08:25:00 2025,notice,jk2_init() Found child 1056 in scoreboard slot 10,E1,dhsfvsdfychzsd
+302,Sun Mar 02 08:25:05 2025,error,[client 198.51.100.103] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+303,Sun Mar 02 08:25:10 2025,error,[client 10.0.0.10] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+304,Sun Mar 02 08:25:15 2025,error,[client 198.51.100.156] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+305,Sun Mar 02 08:25:20 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+306,Sun Mar 02 08:25:25 2025,error,[client 192.168.1.248] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+307,Sun Mar 02 08:25:30 2025,notice,jk2_init() Found child 1057 in scoreboard slot 9,E1,dhsfvsdfychzsd
+308,Sun Mar 02 08:25:35 2025,notice,jk2_init() Found child 1058 in scoreboard slot 8,E1,dhsfvsdfychzsd
+309,Sun Mar 02 08:25:40 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+310,Sun Mar 02 08:25:45 2025,error,[client 203.0.113.46] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+311,Sun Mar 02 08:25:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+312,Sun Mar 02 08:25:55 2025,notice,jk2_init() Found child 1059 in scoreboard slot 8,E1,dhsfvsdfychzsd
+313,Sun Mar 02 08:26:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+314,Sun Mar 02 08:26:05 2025,error,[client 192.168.1.129] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+315,Sun Mar 02 08:26:10 2025,notice,jk2_init() Found child 1060 in scoreboard slot 7,E1,dhsfvsdfychzsd
+316,Sun Mar 02 08:26:15 2025,notice,jk2_init() Found child 1061 in scoreboard slot 9,E1,dhsfvsdfychzsd
+317,Sun Mar 02 08:26:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+318,Sun Mar 02 08:26:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+319,Sun Mar 02 08:26:30 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+320,Sun Mar 02 08:26:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+321,Sun Mar 02 08:26:40 2025,error,[client 198.51.100.97] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+322,Sun Mar 02 08:26:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+323,Sun Mar 02 08:26:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+324,Sun Mar 02 08:26:55 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+325,Sun Mar 02 08:27:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+326,Sun Mar 02 08:27:05 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+327,Sun Mar 02 08:27:10 2025,notice,jk2_init() Found child 1062 in scoreboard slot 8,E1,dhsfvsdfychzsd
+328,Sun Mar 02 08:27:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+329,Sun Mar 02 08:27:20 2025,notice,jk2_init() Found child 1063 in scoreboard slot 7,E1,dhsfvsdfychzsd
+330,Sun Mar 02 08:27:25 2025,error,[client 10.0.0.34] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+331,Sun Mar 02 08:27:30 2025,notice,jk2_init() Found child 1064 in scoreboard slot 6,E1,dhsfvsdfychzsd
+332,Sun Mar 02 08:27:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+333,Sun Mar 02 08:27:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+334,Sun Mar 02 08:27:45 2025,notice,jk2_init() Found child 1065 in scoreboard slot 7,E1,dhsfvsdfychzsd
+335,Sun Mar 02 08:27:50 2025,notice,jk2_init() Found child 1066 in scoreboard slot 8,E1,dhsfvsdfychzsd
+336,Sun Mar 02 08:27:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+337,Sun Mar 02 08:28:00 2025,error,[client 172.16.0.11] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+338,Sun Mar 02 08:28:05 2025,notice,jk2_init() Found child 1067 in scoreboard slot 8,E1,dhsfvsdfychzsd
+339,Sun Mar 02 08:28:10 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+340,Sun Mar 02 08:28:15 2025,notice,jk2_init() Found child 1068 in scoreboard slot 9,E1,dhsfvsdfychzsd
+341,Sun Mar 02 08:28:20 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+342,Sun Mar 02 08:28:25 2025,notice,jk2_init() Found child 1069 in scoreboard slot 10,E1,dhsfvsdfychzsd
+343,Sun Mar 02 08:28:30 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+344,Sun Mar 02 08:28:35 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+345,Sun Mar 02 08:28:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+346,Sun Mar 02 08:28:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+347,Sun Mar 02 08:28:50 2025,error,[client 198.51.100.171] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+348,Sun Mar 02 08:28:55 2025,notice,jk2_init() Found child 1070 in scoreboard slot 8,E1,dhsfvsdfychzsd
+349,Sun Mar 02 08:29:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+350,Sun Mar 02 08:29:05 2025,notice,jk2_init() Found child 1071 in scoreboard slot 7,E1,dhsfvsdfychzsd
+351,Sun Mar 02 08:29:10 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+352,Sun Mar 02 08:29:15 2025,error,[client 10.0.0.108] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+353,Sun Mar 02 08:29:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+354,Sun Mar 02 08:29:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+355,Sun Mar 02 08:29:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+356,Sun Mar 02 08:29:35 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+357,Sun Mar 02 08:29:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+358,Sun Mar 02 08:29:45 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+359,Sun Mar 02 08:29:50 2025,notice,jk2_init() Found child 1072 in scoreboard slot 6,E1,dhsfvsdfychzsd
+360,Sun Mar 02 08:29:55 2025,error,[client 172.16.0.85] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+361,Sun Mar 02 08:30:00 2025,error,[client 192.168.1.255] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+362,Sun Mar 02 08:30:05 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+363,Sun Mar 02 08:30:10 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+364,Sun Mar 02 08:30:15 2025,error,[client 10.0.0.254] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+365,Sun Mar 02 08:30:20 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+366,Sun Mar 02 08:30:25 2025,error,[client 10.0.0.182] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+367,Sun Mar 02 08:30:30 2025,error,[client 10.0.0.48] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+368,Sun Mar 02 08:30:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+369,Sun Mar 02 08:30:40 2025,error,[client 198.51.100.89] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+370,Sun Mar 02 08:30:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+371,Sun Mar 02 08:30:50 2025,notice,jk2_init() Found child 1073 in scoreboard slot 6,E1,dhsfvsdfychzsd
+372,Sun Mar 02 08:30:55 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+373,Sun Mar 02 08:31:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+374,Sun Mar 02 08:31:05 2025,notice,jk2_init() Found child 1074 in scoreboard slot 9,E1,dhsfvsdfychzsd
+375,Sun Mar 02 08:31:10 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+376,Sun Mar 02 08:31:15 2025,error,[client 203.0.113.209] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+377,Sun Mar 02 08:31:20 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+378,Sun Mar 02 08:31:25 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+379,Sun Mar 02 08:31:30 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+380,Sun Mar 02 08:31:35 2025,notice,jk2_init() Found child 1075 in scoreboard slot 9,E1,dhsfvsdfychzsd
+381,Sun Mar 02 08:31:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+382,Sun Mar 02 08:31:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+383,Sun Mar 02 08:31:50 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+384,Sun Mar 02 08:31:55 2025,notice,jk2_init() Found child 1076 in scoreboard slot 8,E1,dhsfvsdfychzsd
+385,Sun Mar 02 08:32:00 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+386,Sun Mar 02 08:32:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+387,Sun Mar 02 08:32:10 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+388,Sun Mar 02 08:32:15 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+389,Sun Mar 02 08:32:20 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+390,Sun Mar 02 08:32:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+391,Sun Mar 02 08:32:30 2025,notice,jk2_init() Found child 1077 in scoreboard slot 9,E1,dhsfvsdfychzsd
+392,Sun Mar 02 08:32:35 2025,error,[client 10.0.0.230] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+393,Sun Mar 02 08:32:40 2025,error,[client 203.0.113.67] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+394,Sun Mar 02 08:32:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+395,Sun Mar 02 08:32:50 2025,error,[client 203.0.113.170] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+396,Sun Mar 02 08:32:55 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+397,Sun Mar 02 08:33:00 2025,error,[client 192.168.1.226] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+398,Sun Mar 02 08:33:05 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+399,Sun Mar 02 08:33:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+400,Sun Mar 02 08:33:15 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+401,Sun Mar 02 08:33:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+402,Sun Mar 02 08:33:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+403,Sun Mar 02 08:33:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+404,Sun Mar 02 08:33:35 2025,error,[client 192.168.1.211] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+405,Sun Mar 02 08:33:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+406,Sun Mar 02 08:33:45 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+407,Sun Mar 02 08:33:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+408,Sun Mar 02 08:33:55 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+409,Sun Mar 02 08:34:00 2025,notice,jk2_init() Found child 1078 in scoreboard slot 10,E1,dhsfvsdfychzsd
+410,Sun Mar 02 08:34:05 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+411,Sun Mar 02 08:34:10 2025,notice,jk2_init() Found child 1079 in scoreboard slot 10,E1,dhsfvsdfychzsd
+412,Sun Mar 02 08:34:15 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+413,Sun Mar 02 08:34:20 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+414,Sun Mar 02 08:34:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+415,Sun Mar 02 08:34:30 2025,error,[client 203.0.113.252] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+416,Sun Mar 02 08:34:35 2025,notice,jk2_init() Found child 1080 in scoreboard slot 6,E1,dhsfvsdfychzsd
+417,Sun Mar 02 08:34:40 2025,notice,jk2_init() Found child 1081 in scoreboard slot 6,E1,dhsfvsdfychzsd
+418,Sun Mar 02 08:34:45 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+419,Sun Mar 02 08:34:50 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+420,Sun Mar 02 08:34:55 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+421,Sun Mar 02 08:35:00 2025,notice,jk2_init() Found child 1082 in scoreboard slot 9,E1,dhsfvsdfychzsd
+422,Sun Mar 02 08:35:05 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+423,Sun Mar 02 08:35:10 2025,notice,jk2_init() Found child 1083 in scoreboard slot 8,E1,dhsfvsdfychzsd
+424,Sun Mar 02 08:35:15 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+425,Sun Mar 02 08:35:20 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+426,Sun Mar 02 08:35:25 2025,notice,jk2_init() Found child 1084 in scoreboard slot 6,E1,dhsfvsdfychzsd
+427,Sun Mar 02 08:35:30 2025,error,[client 203.0.113.232] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+428,Sun Mar 02 08:35:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+429,Sun Mar 02 08:35:40 2025,notice,jk2_init() Found child 1085 in scoreboard slot 9,E1,dhsfvsdfychzsd
+430,Sun Mar 02 08:35:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+431,Sun Mar 02 08:35:50 2025,error,[client 172.16.0.120] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+432,Sun Mar 02 08:35:55 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+433,Sun Mar 02 08:36:00 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+434,Sun Mar 02 08:36:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+435,Sun Mar 02 08:36:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+436,Sun Mar 02 08:36:15 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+437,Sun Mar 02 08:36:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+438,Sun Mar 02 08:36:25 2025,notice,jk2_init() Found child 1086 in scoreboard slot 10,E1,dhsfvsdfychzsd
+439,Sun Mar 02 08:36:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+440,Sun Mar 02 08:36:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+441,Sun Mar 02 08:36:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+442,Sun Mar 02 08:36:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+443,Sun Mar 02 08:36:50 2025,error,[client 192.168.1.63] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+444,Sun Mar 02 08:36:55 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+445,Sun Mar 02 08:37:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+446,Sun Mar 02 08:37:05 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+447,Sun Mar 02 08:37:10 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+448,Sun Mar 02 08:37:15 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+449,Sun Mar 02 08:37:20 2025,error,[client 10.0.0.220] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+450,Sun Mar 02 08:37:25 2025,error,[client 198.51.100.134] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+451,Sun Mar 02 08:37:30 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+452,Sun Mar 02 08:37:35 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+453,Sun Mar 02 08:37:40 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+454,Sun Mar 02 08:37:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+455,Sun Mar 02 08:37:50 2025,notice,jk2_init() Found child 1087 in scoreboard slot 8,E1,dhsfvsdfychzsd
+456,Sun Mar 02 08:37:55 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+457,Sun Mar 02 08:38:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+458,Sun Mar 02 08:38:05 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+459,Sun Mar 02 08:38:10 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+460,Sun Mar 02 08:38:15 2025,error,[client 198.51.100.165] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+461,Sun Mar 02 08:38:20 2025,error,[client 172.16.0.118] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+462,Sun Mar 02 08:38:25 2025,notice,jk2_init() Found child 1088 in scoreboard slot 7,E1,dhsfvsdfychzsd
+463,Sun Mar 02 08:38:30 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+464,Sun Mar 02 08:38:35 2025,error,[client 192.168.1.12] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+465,Sun Mar 02 08:38:40 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+466,Sun Mar 02 08:38:45 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+467,Sun Mar 02 08:38:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+468,Sun Mar 02 08:38:55 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+469,Sun Mar 02 08:39:00 2025,notice,jk2_init() Found child 1089 in scoreboard slot 9,E1,dhsfvsdfychzsd
+470,Sun Mar 02 08:39:05 2025,notice,jk2_init() Found child 1090 in scoreboard slot 9,E1,dhsfvsdfychzsd
+471,Sun Mar 02 08:39:10 2025,notice,jk2_init() Found child 1091 in scoreboard slot 6,E1,dhsfvsdfychzsd
+472,Sun Mar 02 08:39:15 2025,notice,jk2_init() Found child 1092 in scoreboard slot 9,E1,dhsfvsdfychzsd
+473,Sun Mar 02 08:39:20 2025,notice,jk2_init() Found child 1093 in scoreboard slot 10,E1,dhsfvsdfychzsd
+474,Sun Mar 02 08:39:25 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+475,Sun Mar 02 08:39:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+476,Sun Mar 02 08:39:35 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+477,Sun Mar 02 08:39:40 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+478,Sun Mar 02 08:39:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+479,Sun Mar 02 08:39:50 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+480,Sun Mar 02 08:39:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+481,Sun Mar 02 08:40:00 2025,notice,jk2_init() Found child 1094 in scoreboard slot 9,E1,dhsfvsdfychzsd
+482,Sun Mar 02 08:40:05 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+483,Sun Mar 02 08:40:10 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+484,Sun Mar 02 08:40:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+485,Sun Mar 02 08:40:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+486,Sun Mar 02 08:40:25 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+487,Sun Mar 02 08:40:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+488,Sun Mar 02 08:40:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+489,Sun Mar 02 08:40:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+490,Sun Mar 02 08:40:45 2025,notice,jk2_init() Found child 1095 in scoreboard slot 10,E1,dhsfvsdfychzsd
+491,Sun Mar 02 08:40:50 2025,notice,jk2_init() Found child 1096 in scoreboard slot 6,E1,dhsfvsdfychzsd
+492,Sun Mar 02 08:40:55 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+493,Sun Mar 02 08:41:00 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+494,Sun Mar 02 08:41:05 2025,error,[client 10.0.0.237] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+495,Sun Mar 02 08:41:10 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+496,Sun Mar 02 08:41:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+497,Sun Mar 02 08:41:20 2025,notice,jk2_init() Found child 1097 in scoreboard slot 9,E1,dhsfvsdfychzsd
+498,Sun Mar 02 08:41:25 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+499,Sun Mar 02 08:41:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+500,Sun Mar 02 08:41:35 2025,notice,jk2_init() Found child 1098 in scoreboard slot 10,E1,dhsfvsdfychzsd
+501,Sun Mar 02 08:41:40 2025,error,[client 203.0.113.92] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+502,Sun Mar 02 08:41:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+503,Sun Mar 02 08:41:50 2025,notice,jk2_init() Found child 1099 in scoreboard slot 8,E1,dhsfvsdfychzsd
+504,Sun Mar 02 08:41:55 2025,error,[client 192.168.1.248] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+505,Sun Mar 02 08:42:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+506,Sun Mar 02 08:42:05 2025,notice,jk2_init() Found child 1100 in scoreboard slot 9,E1,dhsfvsdfychzsd
+507,Sun Mar 02 08:42:10 2025,error,[client 10.0.0.97] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+508,Sun Mar 02 08:42:15 2025,error,[client 192.168.1.137] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+509,Sun Mar 02 08:42:20 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+510,Sun Mar 02 08:42:25 2025,notice,jk2_init() Found child 1101 in scoreboard slot 10,E1,dhsfvsdfychzsd
+511,Sun Mar 02 08:42:30 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+512,Sun Mar 02 08:42:35 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+513,Sun Mar 02 08:42:40 2025,notice,jk2_init() Found child 1102 in scoreboard slot 8,E1,dhsfvsdfychzsd
+514,Sun Mar 02 08:42:45 2025,error,[client 192.168.1.148] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+515,Sun Mar 02 08:42:50 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+516,Sun Mar 02 08:42:55 2025,notice,jk2_init() Found child 1103 in scoreboard slot 10,E1,dhsfvsdfychzsd
+517,Sun Mar 02 08:43:00 2025,notice,jk2_init() Found child 1104 in scoreboard slot 10,E1,dhsfvsdfychzsd
+518,Sun Mar 02 08:43:05 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+519,Sun Mar 02 08:43:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+520,Sun Mar 02 08:43:15 2025,notice,jk2_init() Found child 1105 in scoreboard slot 9,E1,dhsfvsdfychzsd
+521,Sun Mar 02 08:43:20 2025,notice,jk2_init() Found child 1106 in scoreboard slot 8,E1,dhsfvsdfychzsd
+522,Sun Mar 02 08:43:25 2025,notice,jk2_init() Found child 1107 in scoreboard slot 9,E1,dhsfvsdfychzsd
+523,Sun Mar 02 08:43:30 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+524,Sun Mar 02 08:43:35 2025,notice,jk2_init() Found child 1108 in scoreboard slot 10,E1,dhsfvsdfychzsd
+525,Sun Mar 02 08:43:40 2025,notice,jk2_init() Found child 1109 in scoreboard slot 8,E1,dhsfvsdfychzsd
+526,Sun Mar 02 08:43:45 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+527,Sun Mar 02 08:43:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+528,Sun Mar 02 08:43:55 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+529,Sun Mar 02 08:44:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+530,Sun Mar 02 08:44:05 2025,error,[client 192.168.1.187] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+531,Sun Mar 02 08:44:10 2025,error,[client 198.51.100.223] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+532,Sun Mar 02 08:44:15 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+533,Sun Mar 02 08:44:20 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+534,Sun Mar 02 08:44:25 2025,error,[client 10.0.0.31] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+535,Sun Mar 02 08:44:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+536,Sun Mar 02 08:44:35 2025,notice,jk2_init() Found child 1110 in scoreboard slot 7,E1,dhsfvsdfychzsd
+537,Sun Mar 02 08:44:40 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+538,Sun Mar 02 08:44:45 2025,error,[client 10.0.0.110] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+539,Sun Mar 02 08:44:50 2025,error,[client 10.0.0.95] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+540,Sun Mar 02 08:44:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+541,Sun Mar 02 08:45:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+542,Sun Mar 02 08:45:05 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+543,Sun Mar 02 08:45:10 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+544,Sun Mar 02 08:45:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+545,Sun Mar 02 08:45:20 2025,error,[client 203.0.113.201] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+546,Sun Mar 02 08:45:25 2025,error,[client 192.168.1.91] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+547,Sun Mar 02 08:45:30 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+548,Sun Mar 02 08:45:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+549,Sun Mar 02 08:45:40 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+550,Sun Mar 02 08:45:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+551,Sun Mar 02 08:45:50 2025,notice,jk2_init() Found child 1111 in scoreboard slot 7,E1,dhsfvsdfychzsd
+552,Sun Mar 02 08:45:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+553,Sun Mar 02 08:46:00 2025,error,[client 172.16.0.199] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+554,Sun Mar 02 08:46:05 2025,notice,jk2_init() Found child 1112 in scoreboard slot 7,E1,dhsfvsdfychzsd
+555,Sun Mar 02 08:46:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+556,Sun Mar 02 08:46:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+557,Sun Mar 02 08:46:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+558,Sun Mar 02 08:46:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+559,Sun Mar 02 08:46:30 2025,notice,jk2_init() Found child 1113 in scoreboard slot 8,E1,dhsfvsdfychzsd
+560,Sun Mar 02 08:46:35 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+561,Sun Mar 02 08:46:40 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+562,Sun Mar 02 08:46:45 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+563,Sun Mar 02 08:46:50 2025,error,[client 198.51.100.188] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+564,Sun Mar 02 08:46:55 2025,notice,jk2_init() Found child 1114 in scoreboard slot 7,E1,dhsfvsdfychzsd
+565,Sun Mar 02 08:47:00 2025,error,[client 10.0.0.14] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+566,Sun Mar 02 08:47:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+567,Sun Mar 02 08:47:10 2025,error,[client 198.51.100.141] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+568,Sun Mar 02 08:47:15 2025,error,[client 198.51.100.35] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+569,Sun Mar 02 08:47:20 2025,notice,jk2_init() Found child 1115 in scoreboard slot 9,E1,dhsfvsdfychzsd
+570,Sun Mar 02 08:47:25 2025,notice,jk2_init() Found child 1116 in scoreboard slot 10,E1,dhsfvsdfychzsd
+571,Sun Mar 02 08:47:30 2025,notice,jk2_init() Found child 1117 in scoreboard slot 9,E1,dhsfvsdfychzsd
+572,Sun Mar 02 08:47:35 2025,notice,jk2_init() Found child 1118 in scoreboard slot 9,E1,dhsfvsdfychzsd
+573,Sun Mar 02 08:47:40 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+574,Sun Mar 02 08:47:45 2025,error,[client 198.51.100.19] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+575,Sun Mar 02 08:47:50 2025,notice,jk2_init() Found child 1119 in scoreboard slot 8,E1,dhsfvsdfychzsd
+576,Sun Mar 02 08:47:55 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+577,Sun Mar 02 08:48:00 2025,error,[client 198.51.100.103] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+578,Sun Mar 02 08:48:05 2025,error,[client 10.0.0.196] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+579,Sun Mar 02 08:48:10 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+580,Sun Mar 02 08:48:15 2025,error,[client 198.51.100.190] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+581,Sun Mar 02 08:48:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+582,Sun Mar 02 08:48:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+583,Sun Mar 02 08:48:30 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+584,Sun Mar 02 08:48:35 2025,error,[client 10.0.0.26] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+585,Sun Mar 02 08:48:40 2025,error,[client 10.0.0.215] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+586,Sun Mar 02 08:48:45 2025,error,[client 172.16.0.67] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+587,Sun Mar 02 08:48:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+588,Sun Mar 02 08:48:55 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+589,Sun Mar 02 08:49:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+590,Sun Mar 02 08:49:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+591,Sun Mar 02 08:49:10 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+592,Sun Mar 02 08:49:15 2025,error,[client 10.0.0.219] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+593,Sun Mar 02 08:49:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+594,Sun Mar 02 08:49:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+595,Sun Mar 02 08:49:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+596,Sun Mar 02 08:49:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+597,Sun Mar 02 08:49:40 2025,error,[client 192.168.1.238] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+598,Sun Mar 02 08:49:45 2025,error,[client 172.16.0.190] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+599,Sun Mar 02 08:49:50 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+600,Sun Mar 02 08:49:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+601,Sun Mar 02 08:50:00 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+602,Sun Mar 02 08:50:05 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+603,Sun Mar 02 08:50:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+604,Sun Mar 02 08:50:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+605,Sun Mar 02 08:50:20 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+606,Sun Mar 02 08:50:25 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+607,Sun Mar 02 08:50:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+608,Sun Mar 02 08:50:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+609,Sun Mar 02 08:50:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+610,Sun Mar 02 08:50:45 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+611,Sun Mar 02 08:50:50 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+612,Sun Mar 02 08:50:55 2025,notice,jk2_init() Found child 1120 in scoreboard slot 6,E1,dhsfvsdfychzsd
+613,Sun Mar 02 08:51:00 2025,error,[client 10.0.0.241] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+614,Sun Mar 02 08:51:05 2025,error,[client 203.0.113.45] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+615,Sun Mar 02 08:51:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+616,Sun Mar 02 08:51:15 2025,notice,jk2_init() Found child 1121 in scoreboard slot 10,E1,dhsfvsdfychzsd
+617,Sun Mar 02 08:51:20 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+618,Sun Mar 02 08:51:25 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+619,Sun Mar 02 08:51:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+620,Sun Mar 02 08:51:35 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+621,Sun Mar 02 08:51:40 2025,notice,jk2_init() Found child 1122 in scoreboard slot 6,E1,dhsfvsdfychzsd
+622,Sun Mar 02 08:51:45 2025,notice,jk2_init() Found child 1123 in scoreboard slot 9,E1,dhsfvsdfychzsd
+623,Sun Mar 02 08:51:50 2025,notice,jk2_init() Found child 1124 in scoreboard slot 8,E1,dhsfvsdfychzsd
+624,Sun Mar 02 08:51:55 2025,error,[client 10.0.0.159] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+625,Sun Mar 02 08:52:00 2025,error,[client 203.0.113.160] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+626,Sun Mar 02 08:52:05 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+627,Sun Mar 02 08:52:10 2025,error,[client 192.168.1.234] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+628,Sun Mar 02 08:52:15 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+629,Sun Mar 02 08:52:20 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+630,Sun Mar 02 08:52:25 2025,notice,jk2_init() Found child 1125 in scoreboard slot 6,E1,dhsfvsdfychzsd
+631,Sun Mar 02 08:52:30 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+632,Sun Mar 02 08:52:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+633,Sun Mar 02 08:52:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+634,Sun Mar 02 08:52:45 2025,error,[client 203.0.113.138] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+635,Sun Mar 02 08:52:50 2025,error,[client 10.0.0.223] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+636,Sun Mar 02 08:52:55 2025,error,[client 203.0.113.83] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+637,Sun Mar 02 08:53:00 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+638,Sun Mar 02 08:53:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+639,Sun Mar 02 08:53:10 2025,notice,jk2_init() Found child 1126 in scoreboard slot 10,E1,dhsfvsdfychzsd
+640,Sun Mar 02 08:53:15 2025,error,[client 172.16.0.79] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+641,Sun Mar 02 08:53:20 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+642,Sun Mar 02 08:53:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+643,Sun Mar 02 08:53:30 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+644,Sun Mar 02 08:53:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+645,Sun Mar 02 08:53:40 2025,notice,jk2_init() Found child 1127 in scoreboard slot 10,E1,dhsfvsdfychzsd
+646,Sun Mar 02 08:53:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+647,Sun Mar 02 08:53:50 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+648,Sun Mar 02 08:53:55 2025,error,[client 192.168.1.37] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+649,Sun Mar 02 08:54:00 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+650,Sun Mar 02 08:54:05 2025,notice,jk2_init() Found child 1128 in scoreboard slot 6,E1,dhsfvsdfychzsd
+651,Sun Mar 02 08:54:10 2025,notice,jk2_init() Found child 1129 in scoreboard slot 8,E1,dhsfvsdfychzsd
+652,Sun Mar 02 08:54:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+653,Sun Mar 02 08:54:20 2025,notice,jk2_init() Found child 1130 in scoreboard slot 7,E1,dhsfvsdfychzsd
+654,Sun Mar 02 08:54:25 2025,error,[client 10.0.0.233] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+655,Sun Mar 02 08:54:30 2025,notice,jk2_init() Found child 1131 in scoreboard slot 6,E1,dhsfvsdfychzsd
+656,Sun Mar 02 08:54:35 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+657,Sun Mar 02 08:54:40 2025,notice,jk2_init() Found child 1132 in scoreboard slot 10,E1,dhsfvsdfychzsd
+658,Sun Mar 02 08:54:45 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+659,Sun Mar 02 08:54:50 2025,notice,jk2_init() Found child 1133 in scoreboard slot 6,E1,dhsfvsdfychzsd
+660,Sun Mar 02 08:54:55 2025,notice,jk2_init() Found child 1134 in scoreboard slot 6,E1,dhsfvsdfychzsd
+661,Sun Mar 02 08:55:00 2025,error,[client 203.0.113.215] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+662,Sun Mar 02 08:55:05 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+663,Sun Mar 02 08:55:10 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+664,Sun Mar 02 08:55:15 2025,error,[client 198.51.100.229] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+665,Sun Mar 02 08:55:20 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+666,Sun Mar 02 08:55:25 2025,error,[client 203.0.113.46] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+667,Sun Mar 02 08:55:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+668,Sun Mar 02 08:55:35 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+669,Sun Mar 02 08:55:40 2025,error,[client 192.168.1.237] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+670,Sun Mar 02 08:55:45 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+671,Sun Mar 02 08:55:50 2025,error,[client 203.0.113.218] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+672,Sun Mar 02 08:55:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+673,Sun Mar 02 08:56:00 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+674,Sun Mar 02 08:56:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+675,Sun Mar 02 08:56:10 2025,error,[client 10.0.0.57] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+676,Sun Mar 02 08:56:15 2025,error,[client 192.168.1.18] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+677,Sun Mar 02 08:56:20 2025,error,[client 192.168.1.235] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+678,Sun Mar 02 08:56:25 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+679,Sun Mar 02 08:56:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+680,Sun Mar 02 08:56:35 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+681,Sun Mar 02 08:56:40 2025,error,[client 10.0.0.147] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+682,Sun Mar 02 08:56:45 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+683,Sun Mar 02 08:56:50 2025,notice,jk2_init() Found child 1135 in scoreboard slot 7,E1,dhsfvsdfychzsd
+684,Sun Mar 02 08:56:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+685,Sun Mar 02 08:57:00 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+686,Sun Mar 02 08:57:05 2025,notice,jk2_init() Found child 1136 in scoreboard slot 10,E1,dhsfvsdfychzsd
+687,Sun Mar 02 08:57:10 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+688,Sun Mar 02 08:57:15 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+689,Sun Mar 02 08:57:20 2025,notice,jk2_init() Found child 1137 in scoreboard slot 8,E1,dhsfvsdfychzsd
+690,Sun Mar 02 08:57:25 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+691,Sun Mar 02 08:57:30 2025,notice,jk2_init() Found child 1138 in scoreboard slot 9,E1,dhsfvsdfychzsd
+692,Sun Mar 02 08:57:35 2025,error,[client 172.16.0.20] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+693,Sun Mar 02 08:57:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+694,Sun Mar 02 08:57:45 2025,notice,jk2_init() Found child 1139 in scoreboard slot 9,E1,dhsfvsdfychzsd
+695,Sun Mar 02 08:57:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+696,Sun Mar 02 08:57:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+697,Sun Mar 02 08:58:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+698,Sun Mar 02 08:58:05 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+699,Sun Mar 02 08:58:10 2025,notice,jk2_init() Found child 1140 in scoreboard slot 9,E1,dhsfvsdfychzsd
+700,Sun Mar 02 08:58:15 2025,error,[client 198.51.100.56] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+701,Sun Mar 02 08:58:20 2025,notice,jk2_init() Found child 1141 in scoreboard slot 8,E1,dhsfvsdfychzsd
+702,Sun Mar 02 08:58:25 2025,notice,jk2_init() Found child 1142 in scoreboard slot 6,E1,dhsfvsdfychzsd
+703,Sun Mar 02 08:58:30 2025,notice,jk2_init() Found child 1143 in scoreboard slot 9,E1,dhsfvsdfychzsd
+704,Sun Mar 02 08:58:35 2025,notice,jk2_init() Found child 1144 in scoreboard slot 8,E1,dhsfvsdfychzsd
+705,Sun Mar 02 08:58:40 2025,notice,jk2_init() Found child 1145 in scoreboard slot 7,E1,dhsfvsdfychzsd
+706,Sun Mar 02 08:58:45 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+707,Sun Mar 02 08:58:50 2025,notice,jk2_init() Found child 1146 in scoreboard slot 6,E1,dhsfvsdfychzsd
+708,Sun Mar 02 08:58:55 2025,notice,jk2_init() Found child 1147 in scoreboard slot 6,E1,dhsfvsdfychzsd
+709,Sun Mar 02 08:59:00 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+710,Sun Mar 02 08:59:05 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+711,Sun Mar 02 08:59:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+712,Sun Mar 02 08:59:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+713,Sun Mar 02 08:59:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+714,Sun Mar 02 08:59:25 2025,notice,jk2_init() Found child 1148 in scoreboard slot 8,E1,dhsfvsdfychzsd
+715,Sun Mar 02 08:59:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+716,Sun Mar 02 08:59:35 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+717,Sun Mar 02 08:59:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+718,Sun Mar 02 08:59:45 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+719,Sun Mar 02 08:59:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+720,Sun Mar 02 08:59:55 2025,notice,jk2_init() Found child 1149 in scoreboard slot 6,E1,dhsfvsdfychzsd
+721,Sun Mar 02 09:00:00 2025,error,[client 10.0.0.114] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+722,Sun Mar 02 09:00:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+723,Sun Mar 02 09:00:10 2025,notice,jk2_init() Found child 1150 in scoreboard slot 6,E1,dhsfvsdfychzsd
+724,Sun Mar 02 09:00:15 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+725,Sun Mar 02 09:00:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+726,Sun Mar 02 09:00:25 2025,error,[client 10.0.0.126] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+727,Sun Mar 02 09:00:30 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+728,Sun Mar 02 09:00:35 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+729,Sun Mar 02 09:00:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+730,Sun Mar 02 09:00:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+731,Sun Mar 02 09:00:50 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+732,Sun Mar 02 09:00:55 2025,notice,jk2_init() Found child 1151 in scoreboard slot 10,E1,dhsfvsdfychzsd
+733,Sun Mar 02 09:01:00 2025,error,[client 192.168.1.84] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+734,Sun Mar 02 09:01:05 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+735,Sun Mar 02 09:01:10 2025,notice,jk2_init() Found child 1152 in scoreboard slot 9,E1,dhsfvsdfychzsd
+736,Sun Mar 02 09:01:15 2025,notice,jk2_init() Found child 1153 in scoreboard slot 10,E1,dhsfvsdfychzsd
+737,Sun Mar 02 09:01:20 2025,notice,jk2_init() Found child 1154 in scoreboard slot 6,E1,dhsfvsdfychzsd
+738,Sun Mar 02 09:01:25 2025,error,[client 10.0.0.169] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+739,Sun Mar 02 09:01:30 2025,notice,jk2_init() Found child 1155 in scoreboard slot 10,E1,dhsfvsdfychzsd
+740,Sun Mar 02 09:01:35 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+741,Sun Mar 02 09:01:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+742,Sun Mar 02 09:01:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+743,Sun Mar 02 09:01:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+744,Sun Mar 02 09:01:55 2025,error,[client 172.16.0.80] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+745,Sun Mar 02 09:02:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+746,Sun Mar 02 09:02:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+747,Sun Mar 02 09:02:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+748,Sun Mar 02 09:02:15 2025,error,[client 10.0.0.17] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+749,Sun Mar 02 09:02:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+750,Sun Mar 02 09:02:25 2025,notice,jk2_init() Found child 1156 in scoreboard slot 9,E1,dhsfvsdfychzsd
+751,Sun Mar 02 09:02:30 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+752,Sun Mar 02 09:02:35 2025,notice,jk2_init() Found child 1157 in scoreboard slot 7,E1,dhsfvsdfychzsd
+753,Sun Mar 02 09:02:40 2025,notice,jk2_init() Found child 1158 in scoreboard slot 6,E1,dhsfvsdfychzsd
+754,Sun Mar 02 09:02:45 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+755,Sun Mar 02 09:02:50 2025,error,[client 172.16.0.2] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+756,Sun Mar 02 09:02:55 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+757,Sun Mar 02 09:03:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+758,Sun Mar 02 09:03:05 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+759,Sun Mar 02 09:03:10 2025,notice,jk2_init() Found child 1159 in scoreboard slot 7,E1,dhsfvsdfychzsd
+760,Sun Mar 02 09:03:15 2025,notice,jk2_init() Found child 1160 in scoreboard slot 9,E1,dhsfvsdfychzsd
+761,Sun Mar 02 09:03:20 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+762,Sun Mar 02 09:03:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+763,Sun Mar 02 09:03:30 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+764,Sun Mar 02 09:03:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+765,Sun Mar 02 09:03:40 2025,error,[client 10.0.0.52] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+766,Sun Mar 02 09:03:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+767,Sun Mar 02 09:03:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+768,Sun Mar 02 09:03:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+769,Sun Mar 02 09:04:00 2025,error,[client 203.0.113.80] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+770,Sun Mar 02 09:04:05 2025,notice,jk2_init() Found child 1161 in scoreboard slot 7,E1,dhsfvsdfychzsd
+771,Sun Mar 02 09:04:10 2025,notice,jk2_init() Found child 1162 in scoreboard slot 10,E1,dhsfvsdfychzsd
+772,Sun Mar 02 09:04:15 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+773,Sun Mar 02 09:04:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+774,Sun Mar 02 09:04:25 2025,notice,jk2_init() Found child 1163 in scoreboard slot 10,E1,dhsfvsdfychzsd
+775,Sun Mar 02 09:04:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+776,Sun Mar 02 09:04:35 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+777,Sun Mar 02 09:04:40 2025,error,[client 203.0.113.89] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+778,Sun Mar 02 09:04:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+779,Sun Mar 02 09:04:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+780,Sun Mar 02 09:04:55 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+781,Sun Mar 02 09:05:00 2025,notice,jk2_init() Found child 1164 in scoreboard slot 7,E1,dhsfvsdfychzsd
+782,Sun Mar 02 09:05:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+783,Sun Mar 02 09:05:10 2025,notice,jk2_init() Found child 1165 in scoreboard slot 6,E1,dhsfvsdfychzsd
+784,Sun Mar 02 09:05:15 2025,notice,jk2_init() Found child 1166 in scoreboard slot 10,E1,dhsfvsdfychzsd
+785,Sun Mar 02 09:05:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+786,Sun Mar 02 09:05:25 2025,notice,jk2_init() Found child 1167 in scoreboard slot 7,E1,dhsfvsdfychzsd
+787,Sun Mar 02 09:05:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+788,Sun Mar 02 09:05:35 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+789,Sun Mar 02 09:05:40 2025,error,[client 192.168.1.250] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+790,Sun Mar 02 09:05:45 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+791,Sun Mar 02 09:05:50 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+792,Sun Mar 02 09:05:55 2025,notice,jk2_init() Found child 1168 in scoreboard slot 10,E1,dhsfvsdfychzsd
+793,Sun Mar 02 09:06:00 2025,error,[client 198.51.100.49] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+794,Sun Mar 02 09:06:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+795,Sun Mar 02 09:06:10 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+796,Sun Mar 02 09:06:15 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+797,Sun Mar 02 09:06:20 2025,notice,jk2_init() Found child 1169 in scoreboard slot 7,E1,dhsfvsdfychzsd
+798,Sun Mar 02 09:06:25 2025,notice,jk2_init() Found child 1170 in scoreboard slot 10,E1,dhsfvsdfychzsd
+799,Sun Mar 02 09:06:30 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+800,Sun Mar 02 09:06:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+801,Sun Mar 02 09:06:40 2025,notice,jk2_init() Found child 1171 in scoreboard slot 10,E1,dhsfvsdfychzsd
+802,Sun Mar 02 09:06:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+803,Sun Mar 02 09:06:50 2025,error,[client 198.51.100.2] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+804,Sun Mar 02 09:06:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+805,Sun Mar 02 09:07:00 2025,error,[client 192.168.1.205] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+806,Sun Mar 02 09:07:05 2025,notice,jk2_init() Found child 1172 in scoreboard slot 8,E1,dhsfvsdfychzsd
+807,Sun Mar 02 09:07:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+808,Sun Mar 02 09:07:15 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+809,Sun Mar 02 09:07:20 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+810,Sun Mar 02 09:07:25 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+811,Sun Mar 02 09:07:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+812,Sun Mar 02 09:07:35 2025,error,[client 203.0.113.40] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+813,Sun Mar 02 09:07:40 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+814,Sun Mar 02 09:07:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+815,Sun Mar 02 09:07:50 2025,notice,jk2_init() Found child 1173 in scoreboard slot 7,E1,dhsfvsdfychzsd
+816,Sun Mar 02 09:07:55 2025,notice,jk2_init() Found child 1174 in scoreboard slot 8,E1,dhsfvsdfychzsd
+817,Sun Mar 02 09:08:00 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+818,Sun Mar 02 09:08:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+819,Sun Mar 02 09:08:10 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+820,Sun Mar 02 09:08:15 2025,error,[client 10.0.0.215] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+821,Sun Mar 02 09:08:20 2025,notice,jk2_init() Found child 1175 in scoreboard slot 9,E1,dhsfvsdfychzsd
+822,Sun Mar 02 09:08:25 2025,notice,jk2_init() Found child 1176 in scoreboard slot 6,E1,dhsfvsdfychzsd
+823,Sun Mar 02 09:08:30 2025,error,[client 10.0.0.21] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+824,Sun Mar 02 09:08:35 2025,error,[client 198.51.100.175] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+825,Sun Mar 02 09:08:40 2025,error,[client 10.0.0.32] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+826,Sun Mar 02 09:08:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+827,Sun Mar 02 09:08:50 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+828,Sun Mar 02 09:08:55 2025,error,[client 198.51.100.41] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+829,Sun Mar 02 09:09:00 2025,notice,jk2_init() Found child 1177 in scoreboard slot 9,E1,dhsfvsdfychzsd
+830,Sun Mar 02 09:09:05 2025,error,[client 172.16.0.165] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+831,Sun Mar 02 09:09:10 2025,notice,jk2_init() Found child 1178 in scoreboard slot 10,E1,dhsfvsdfychzsd
+832,Sun Mar 02 09:09:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+833,Sun Mar 02 09:09:20 2025,notice,jk2_init() Found child 1179 in scoreboard slot 8,E1,dhsfvsdfychzsd
+834,Sun Mar 02 09:09:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+835,Sun Mar 02 09:09:30 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+836,Sun Mar 02 09:09:35 2025,notice,jk2_init() Found child 1180 in scoreboard slot 8,E1,dhsfvsdfychzsd
+837,Sun Mar 02 09:09:40 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+838,Sun Mar 02 09:09:45 2025,error,[client 10.0.0.222] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+839,Sun Mar 02 09:09:50 2025,notice,jk2_init() Found child 1181 in scoreboard slot 10,E1,dhsfvsdfychzsd
+840,Sun Mar 02 09:09:55 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+841,Sun Mar 02 09:10:00 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+842,Sun Mar 02 09:10:05 2025,error,[client 203.0.113.31] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+843,Sun Mar 02 09:10:10 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+844,Sun Mar 02 09:10:15 2025,notice,jk2_init() Found child 1182 in scoreboard slot 8,E1,dhsfvsdfychzsd
+845,Sun Mar 02 09:10:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+846,Sun Mar 02 09:10:25 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+847,Sun Mar 02 09:10:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+848,Sun Mar 02 09:10:35 2025,notice,jk2_init() Found child 1183 in scoreboard slot 7,E1,dhsfvsdfychzsd
+849,Sun Mar 02 09:10:40 2025,error,[client 198.51.100.152] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+850,Sun Mar 02 09:10:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+851,Sun Mar 02 09:10:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+852,Sun Mar 02 09:10:55 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+853,Sun Mar 02 09:11:00 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+854,Sun Mar 02 09:11:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+855,Sun Mar 02 09:11:10 2025,notice,jk2_init() Found child 1184 in scoreboard slot 7,E1,dhsfvsdfychzsd
+856,Sun Mar 02 09:11:15 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+857,Sun Mar 02 09:11:20 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+858,Sun Mar 02 09:11:25 2025,notice,jk2_init() Found child 1185 in scoreboard slot 6,E1,dhsfvsdfychzsd
+859,Sun Mar 02 09:11:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+860,Sun Mar 02 09:11:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+861,Sun Mar 02 09:11:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+862,Sun Mar 02 09:11:45 2025,error,[client 203.0.113.79] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+863,Sun Mar 02 09:11:50 2025,notice,jk2_init() Found child 1186 in scoreboard slot 6,E1,dhsfvsdfychzsd
+864,Sun Mar 02 09:11:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+865,Sun Mar 02 09:12:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+866,Sun Mar 02 09:12:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+867,Sun Mar 02 09:12:10 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+868,Sun Mar 02 09:12:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+869,Sun Mar 02 09:12:20 2025,error,[client 203.0.113.216] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+870,Sun Mar 02 09:12:25 2025,error,[client 10.0.0.232] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+871,Sun Mar 02 09:12:30 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+872,Sun Mar 02 09:12:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+873,Sun Mar 02 09:12:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+874,Sun Mar 02 09:12:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+875,Sun Mar 02 09:12:50 2025,error,[client 192.168.1.66] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+876,Sun Mar 02 09:12:55 2025,error,[client 198.51.100.20] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+877,Sun Mar 02 09:13:00 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+878,Sun Mar 02 09:13:05 2025,notice,jk2_init() Found child 1187 in scoreboard slot 7,E1,dhsfvsdfychzsd
+879,Sun Mar 02 09:13:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+880,Sun Mar 02 09:13:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+881,Sun Mar 02 09:13:20 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+882,Sun Mar 02 09:13:25 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+883,Sun Mar 02 09:13:30 2025,error,[client 203.0.113.61] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+884,Sun Mar 02 09:13:35 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+885,Sun Mar 02 09:13:40 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+886,Sun Mar 02 09:13:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+887,Sun Mar 02 09:13:50 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+888,Sun Mar 02 09:13:55 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+889,Sun Mar 02 09:14:00 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+890,Sun Mar 02 09:14:05 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+891,Sun Mar 02 09:14:10 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+892,Sun Mar 02 09:14:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+893,Sun Mar 02 09:14:20 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+894,Sun Mar 02 09:14:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+895,Sun Mar 02 09:14:30 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+896,Sun Mar 02 09:14:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+897,Sun Mar 02 09:14:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+898,Sun Mar 02 09:14:45 2025,notice,jk2_init() Found child 1188 in scoreboard slot 10,E1,dhsfvsdfychzsd
+899,Sun Mar 02 09:14:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+900,Sun Mar 02 09:14:55 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+901,Sun Mar 02 09:15:00 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+902,Sun Mar 02 09:15:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+903,Sun Mar 02 09:15:10 2025,error,[client 10.0.0.70] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+904,Sun Mar 02 09:15:15 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+905,Sun Mar 02 09:15:20 2025,error,[client 10.0.0.85] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+906,Sun Mar 02 09:15:25 2025,notice,jk2_init() Found child 1189 in scoreboard slot 8,E1,dhsfvsdfychzsd
+907,Sun Mar 02 09:15:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+908,Sun Mar 02 09:15:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+909,Sun Mar 02 09:15:40 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+910,Sun Mar 02 09:15:45 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+911,Sun Mar 02 09:15:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+912,Sun Mar 02 09:15:55 2025,error,[client 172.16.0.30] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+913,Sun Mar 02 09:16:00 2025,error,[client 192.168.1.113] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+914,Sun Mar 02 09:16:05 2025,notice,jk2_init() Found child 1190 in scoreboard slot 6,E1,dhsfvsdfychzsd
+915,Sun Mar 02 09:16:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+916,Sun Mar 02 09:16:15 2025,error,[client 10.0.0.135] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+917,Sun Mar 02 09:16:20 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+918,Sun Mar 02 09:16:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+919,Sun Mar 02 09:16:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+920,Sun Mar 02 09:16:35 2025,notice,jk2_init() Found child 1191 in scoreboard slot 8,E1,dhsfvsdfychzsd
+921,Sun Mar 02 09:16:40 2025,error,[client 172.16.0.191] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+922,Sun Mar 02 09:16:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+923,Sun Mar 02 09:16:50 2025,error,[client 192.168.1.35] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+924,Sun Mar 02 09:16:55 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+925,Sun Mar 02 09:17:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+926,Sun Mar 02 09:17:05 2025,notice,jk2_init() Found child 1192 in scoreboard slot 8,E1,dhsfvsdfychzsd
+927,Sun Mar 02 09:17:10 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+928,Sun Mar 02 09:17:15 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+929,Sun Mar 02 09:17:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+930,Sun Mar 02 09:17:25 2025,notice,jk2_init() Found child 1193 in scoreboard slot 7,E1,dhsfvsdfychzsd
+931,Sun Mar 02 09:17:30 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+932,Sun Mar 02 09:17:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+933,Sun Mar 02 09:17:40 2025,notice,jk2_init() Found child 1194 in scoreboard slot 7,E1,dhsfvsdfychzsd
+934,Sun Mar 02 09:17:45 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+935,Sun Mar 02 09:17:50 2025,error,[client 198.51.100.40] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+936,Sun Mar 02 09:17:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+937,Sun Mar 02 09:18:00 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+938,Sun Mar 02 09:18:05 2025,notice,jk2_init() Found child 1195 in scoreboard slot 9,E1,dhsfvsdfychzsd
+939,Sun Mar 02 09:18:10 2025,error,[client 10.0.0.235] Unauthorized access attempt detected: /var/www/html/admin/,E4,dhsfvsdfychzsd
+940,Sun Mar 02 09:18:15 2025,notice,jk2_init() Found child 1196 in scoreboard slot 6,E1,dhsfvsdfychzsd
+941,Sun Mar 02 09:18:20 2025,error,[client 198.51.100.101] Directory index forbidden by rule: /var/www/html/private/,E4,dhsfvsdfychzsd
+942,Sun Mar 02 09:18:25 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+943,Sun Mar 02 09:18:30 2025,notice,jk2_init() Found child 1197 in scoreboard slot 9,E1,dhsfvsdfychzsd
+944,Sun Mar 02 09:18:35 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+945,Sun Mar 02 09:18:40 2025,notice,jk2_init() Found child 1198 in scoreboard slot 9,E1,dhsfvsdfychzsd
+946,Sun Mar 02 09:18:45 2025,error,[client 198.51.100.163] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+947,Sun Mar 02 09:18:50 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+948,Sun Mar 02 09:18:55 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+949,Sun Mar 02 09:19:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+950,Sun Mar 02 09:19:05 2025,notice,jk2_init() Found child 1199 in scoreboard slot 8,E1,dhsfvsdfychzsd
+951,Sun Mar 02 09:19:10 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+952,Sun Mar 02 09:19:15 2025,notice,jk2_init() Found child 1200 in scoreboard slot 8,E1,dhsfvsdfychzsd
+953,Sun Mar 02 09:19:20 2025,notice,jk2_init() Found child 1201 in scoreboard slot 9,E1,dhsfvsdfychzsd
+954,Sun Mar 02 09:19:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+955,Sun Mar 02 09:19:30 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+956,Sun Mar 02 09:19:35 2025,error,[client 172.16.0.132] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+957,Sun Mar 02 09:19:40 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+958,Sun Mar 02 09:19:45 2025,error,[client 198.51.100.212] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+959,Sun Mar 02 09:19:50 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+960,Sun Mar 02 09:19:55 2025,error,[client 10.0.0.184] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+961,Sun Mar 02 09:20:00 2025,notice,jk2_init() Found child 1202 in scoreboard slot 10,E1,dhsfvsdfychzsd
+962,Sun Mar 02 09:20:05 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+963,Sun Mar 02 09:20:10 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+964,Sun Mar 02 09:20:15 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+965,Sun Mar 02 09:20:20 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+966,Sun Mar 02 09:20:25 2025,error,[client 192.168.1.210] Unauthorized access attempt detected: /var/www/html/,E4,dhsfvsdfychzsd
+967,Sun Mar 02 09:20:30 2025,error,[client 192.168.1.201] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+968,Sun Mar 02 09:20:35 2025,error,[client 192.168.1.239] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+969,Sun Mar 02 09:20:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+970,Sun Mar 02 09:20:45 2025,error,[client 192.168.1.100] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+971,Sun Mar 02 09:20:50 2025,error,[client 198.51.100.54] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+972,Sun Mar 02 09:20:55 2025,notice,jk2_init() Found child 1203 in scoreboard slot 7,E1,dhsfvsdfychzsd
+973,Sun Mar 02 09:21:00 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+974,Sun Mar 02 09:21:05 2025,notice,jk2_init() Found child 1204 in scoreboard slot 10,E1,dhsfvsdfychzsd
+975,Sun Mar 02 09:21:10 2025,notice,jk2_init() Found child 1205 in scoreboard slot 7,E1,dhsfvsdfychzsd
+976,Sun Mar 02 09:21:15 2025,error,[client 172.16.0.41] Directory index forbidden by rule: /var/www/html/admin/,E4,dhsfvsdfychzsd
+977,Sun Mar 02 09:21:20 2025,error,[client 172.16.0.4] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+978,Sun Mar 02 09:21:25 2025,error,[client 192.168.1.229] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+979,Sun Mar 02 09:21:30 2025,error,mod_jk child workerEnv in error state 9,E3,dhsfvsdfychzsd
+980,Sun Mar 02 09:21:35 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+981,Sun Mar 02 09:21:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+982,Sun Mar 02 09:21:45 2025,error,[client 10.0.0.82] Directory index forbidden by rule: /var/www/html/config/,E4,dhsfvsdfychzsd
+983,Sun Mar 02 09:21:50 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+984,Sun Mar 02 09:21:55 2025,notice,jk2_init() Found child 1206 in scoreboard slot 6,E1,dhsfvsdfychzsd
+985,Sun Mar 02 09:22:00 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+986,Sun Mar 02 09:22:05 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd
+987,Sun Mar 02 09:22:10 2025,notice,jk2_init() Found child 1207 in scoreboard slot 8,E1,dhsfvsdfychzsd
+988,Sun Mar 02 09:22:15 2025,error,[client 198.51.100.153] Unauthorized access attempt detected: /var/www/html/private/,E4,dhsfvsdfychzsd
+989,Sun Mar 02 09:22:20 2025,error,[client 172.16.0.219] Unauthorized access attempt detected: /var/www/html/config/,E4,dhsfvsdfychzsd
+990,Sun Mar 02 09:22:25 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+991,Sun Mar 02 09:22:30 2025,notice,jk2_init() Found child 1208 in scoreboard slot 10,E1,dhsfvsdfychzsd
+992,Sun Mar 02 09:22:35 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+993,Sun Mar 02 09:22:40 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+994,Sun Mar 02 09:22:45 2025,error,[client 192.168.1.68] Directory index forbidden by rule: /var/www/html/,E4,dhsfvsdfychzsd
+995,Sun Mar 02 09:22:50 2025,error,mod_jk child workerEnv in error state 7,E3,dhsfvsdfychzsd
+996,Sun Mar 02 09:22:55 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+997,Sun Mar 02 09:23:00 2025,error,mod_jk child workerEnv in error state 6,E3,dhsfvsdfychzsd
+998,Sun Mar 02 09:23:05 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+999,Sun Mar 02 09:23:10 2025,notice,workerEnv.init() ok /etc/httpd/conf/workers2.properties,E2,dhsfvsdfychzsd
+1000,Sun Mar 02 09:23:15 2025,error,mod_jk child workerEnv in error state 8,E3,dhsfvsdfychzsd

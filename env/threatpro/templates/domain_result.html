@@ -1,0 +1,635 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>VirusTotal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Dark Theme (Default) */
+        html[data-theme="dark"] {
+            --bg-color: #141525;
+            --navbar-color: #1a1c2d;
+            --input-bg: #242535;
+            --text-color: white;
+            --border-color: #2a2c3d;
+            --accent-color: #7898ff;
+        }
+
+        /* Light Theme */
+        html[data-theme="light"] {
+            --bg-color: #ffffff;
+            /* --bg-color: #f5f5f5; */
+            /* --navbar-color: #ffffff; */
+            --navbar-color: #f5f5f5; 
+            --input-bg: #e8e8e8;
+            --text-color: #333333;
+            --border-color: #dddddd;
+            --accent-color: #4169e1;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            background: transparent;
+            border-bottom: 1px solid var(--border-color);
+            height: 60px;
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        .search-bar {
+            flex-grow: 1;
+            margin: 0 15px;
+        }
+
+        .search-bar input {
+            width: 100%;
+            padding: 10px 15px;
+            background-color: var(--input-bg);
+            border: none;
+            border-radius: 4px;
+            color: var(--text-color);
+        }
+
+        .navbar-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar-button {
+            background-color: transparent;
+            border: none;
+            color: var(--text-color);
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .theme-toggle {
+            cursor: pointer;
+        }
+
+        .signup-button {
+            background-color: var(--accent-color);
+            padding: 5px 10px;
+            border-radius: 4px;
+            color: white;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 20px;
+            min-height: calc(100vh - 60px);
+        }
+
+        .logo1 {
+
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-icon1 {
+            color: var(--accent-color);
+            font-size: 50px;
+        }
+
+        .logo-text1 {
+            color: var(--accent-color);
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+
+        .logo {
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-icon {
+            color: var(--accent-color);
+            font-size: 80px;
+            margin-right: 10px;
+        }
+
+        .logo-text {
+            color: var(--accent-color);
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .description {
+            text-align: center;
+            max-width: 700px;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .tab-buttons {
+            display: flex;
+            border-bottom: 2px solid var(--input-bg);
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 30px;
+        }
+
+        .tab-button {
+            padding: 15px 0;
+            flex: 1;
+            text-align: center;
+            background-color: transparent;
+            border: none;
+            color: var(--text-color);
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .tab-button.active {
+            border-bottom: 2px solid var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        .input-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .file-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .file-icon {
+            width: 100px;
+            height: 100px;
+            /* margin-bottom: 20px; */
+            opacity: 0.7;
+        }
+
+        .file-button {
+            background-color: transparent;
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 10px 25px;
+            border-radius: 4px;
+            cursor: pointer;
+            /* margin-top: 20px; */
+        }
+
+        .url-area,
+        .search-area {
+            width: 100%;
+            display: none;
+        }
+
+        .url-input,
+        .search-input {
+            width: 100%;
+            padding: 12px;
+            background-color: var(--input-bg);
+            border: none;
+            border-radius: 4px;
+            color: var(--text-color);
+            margin-top: 20px;
+        }
+
+        
+
+        .svg-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        /* footer */
+        .footer {
+            border-top: 1px solid var(--border-color);
+            font-family: "Poppins", sans-serif;
+            background-color:var();
+            padding: 40px 20px;
+            margin-top: 20px;
+        }
+
+        .footer-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-call {
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .footer-call a {
+            color: #757575;
+            text-decoration: none;
+        }
+
+        .footer-links {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: #757575;
+            font-size: 14px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-select {
+            margin: 20px 0;
+        }
+
+        .footer-select select {
+            padding: 10px;
+            background-color: #141414;
+            color: #fff;
+            border: 1px solid #757575;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .footer-copyright {
+            font-size: 12px;
+        }
+
+        /* Media Queries */
+        @media (min-width: 600px) {
+            .footer-links {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media (min-width: 768px) {
+            .footer-container {
+                text-align: left;
+            }
+
+            .footer-call {
+                text-align: left;
+                font-size: 16px;
+            }
+
+            .footer-links {
+                gap: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo1">
+            <span class="logo-icon1">
+                <img src="static/img/VulnX.png" alt="Logo" width="120" height="auto">
+            </span>
+        </div>
+        
+        <div class="navbar-buttons">
+           
+            <button class="navbar-button theme-toggle" id="theme-toggle"><i class='bx bxs-sun'></i></button>
+            <button class="navbar-button">Sign in</button>
+            <button class="navbar-button signup-button">Sign up</button>
+        </div>
+    </div>
+
+    {% block content %}
+    <div class="container">
+        <h2 class="text-center mt-4">🌍 Domain Reputation Result</h2>
+
+        {% if result %}
+        <div class="result-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Domain</th>
+                        <th>Reputation Score</th>
+                        <th>Blacklisted</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ query }}</td>
+                        <td>{{ result.reputation_score }}%</td>
+                        <td>{% if result.blacklisted %} 🚨 Yes {% else %} ✅ No {% endif %}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div class="alert alert-warning text-center">⚠️ No results found.</div>
+        {% endif %}
+
+        <div class="text-center mt-3">
+            <a href="" class="btn btn-primary">🔍 New Search</a>
+        </div>
+    </div>
+    {% endblock %}
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-call">
+                Questions? Call <a href="tel:000-000-0000">000-000-0000</a>
+            </p>
+
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Speed Test</a></li>
+                    <li><a href="#">Media Center</a></li>
+                </ul>
+            </div>
+
+            <p class="footer-copyright">&copy; Threat Detection 2025</p>
+        </div>
+    </footer>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        
+        /* Table styling */
+        .result-table table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        .result-table th, 
+        .result-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        
+        .result-table th {
+            background-color: #007bff;
+            color: white;
+        }
+        
+        /* Alert box */
+        .alert {
+            font-size: 18px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        /* Button */
+        .btn-primary {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+        
+        /* ✅ Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 10px;
+            }
+        
+            .result-table table {
+                font-size: 14px;
+            }
+        
+            .result-table th, 
+            .result-table td {
+                padding: 8px;
+            }
+        
+            .btn-primary {
+                font-size: 16px;
+                padding: 8px 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .result-table table {
+                font-size: 12px;
+            }
+        
+            .result-table th, 
+            .result-table td {
+                padding: 6px;
+            }
+        
+            .btn-primary {
+                font-size: 14px;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+    
+    <script>
+        function updateButton() {
+            let fileInput = document.getElementById("file-input");
+            let chooseButton = document.getElementById("choose-file-btn");
+        
+            if (fileInput.files.length > 0) {
+                chooseButton.innerHTML = "Upload & Scan";
+                chooseButton.type = "submit"; // Convert button into submit
+                chooseButton.onclick = null; // Remove previous onclick event
+            }
+        }
+    </script>
+
+    <script>
+        document.getElementById('file-input').addEventListener('change', function() {
+            var fileName = this.files.length > 0 ? this.files[0].name : "No file chosen";
+            document.getElementById('file-name').textContent = fileName;  // ✅ Display selected file name
+        });
+    </script>
+    
+    <script>
+        // Tab switching functionality
+        document.getElementById('file-tab').addEventListener('click', function () {
+            document.getElementById('file-section').style.display = 'flex';
+            document.getElementById('url-section').style.display = 'none';
+            document.getElementById('search-section').style.display = 'none';
+
+            document.getElementById('file-tab').classList.add('active');
+            document.getElementById('url-tab').classList.remove('active');
+            document.getElementById('search-tab').classList.remove('active');
+        });
+
+        document.getElementById('url-tab').addEventListener('click', function () {
+            document.getElementById('file-section').style.display = 'none';
+            document.getElementById('url-section').style.display = 'block';
+            document.getElementById('search-section').style.display = 'none';
+
+            document.getElementById('file-tab').classList.remove('active');
+            document.getElementById('url-tab').classList.add('active');
+            document.getElementById('search-tab').classList.remove('active');
+        });
+
+        document.getElementById('search-tab').addEventListener('click', function () {
+            document.getElementById('file-section').style.display = 'none';
+            document.getElementById('url-section').style.display = 'none';
+            document.getElementById('search-section').style.display = 'block';
+
+            document.getElementById('file-tab').classList.remove('active');
+            document.getElementById('url-tab').classList.remove('active');
+            document.getElementById('search-tab').classList.add('active');
+        });
+
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        themeToggle.addEventListener('click', function () {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+
+            if (currentTheme === 'light') {
+                html.setAttribute('data-theme', 'dark');
+                themeToggle.innerHTML = "<i class='bx bxs-sun'></i>"; // Moon icon for light mode
+            } else {
+                html.setAttribute('data-theme', 'light');
+                themeToggle.innerHTML = "<i class='bx bxs-moon'></i>"; // Sun icon for dark mode
+            }
+        });
+
+        fileInput.addEventListener('change', function () {
+            if (fileInput.files.length > 0) {
+                fileNameDisplay.textContent = fileInput.files[0].name;
+            } else {
+                fileNameDisplay.textContent = 'No file chosen';
+            }
+        });
+        document.getElementById('file-input').addEventListener('change', function () {
+            let fileName = this.files.length > 0 ? this.files[0].name : 'No file chosen';
+            document.getElementById('file-name').textContent = fileName;
+        });
+
+
+    </script>
+
+</body>
+
+</html>
+
+<style>
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.result-table {
+    width: 100%;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background: #28a745;
+    color: white;
+    font-weight: bold;
+}
+tr:hover {
+    background: #f1f1f1;
+}
+</style>
+
+<style>
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.result-table {
+    width: 100%;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+}
+tr:hover {
+    background: #f1f1f1;
+}
+</style>
+

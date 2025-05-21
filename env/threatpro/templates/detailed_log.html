@@ -1,0 +1,29 @@
+{% if log_data %}
+    <h2>Log Analysis Report</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>IP</th>
+                <th>Timestamp</th>
+                <th>Request Type</th>
+                <th>URL</th>
+                <th>Status</th>
+                <th>Threat Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for log in log_data %}
+                <tr>
+                    <td>{{ log.ip }}</td>
+                    <td>{{ log.timestamp }}</td>
+                    <td>{{ log.method }}</td>
+                    <td>{{ log.url }}</td>
+                    <td>{{ log.status }}</td>
+                    <td>{{ log.threat_level }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>No logs available.</p>
+{% endif %}

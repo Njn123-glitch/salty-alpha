@@ -1,0 +1,71 @@
+
+{% block content %}
+<h2>📊 Threat Detection Dashboard</h2>
+
+<div style="display: flex; justify-content: space-around; text-align: center;">
+    <div style="border: 1px solid gray; padding: 20px; border-radius: 10px;">
+        <h3>🔴 High Severity</h3>
+        <h2 style="color: red;">{{ high_severity }}</h2>
+    </div>
+    <div style="border: 1px solid gray; padding: 20px; border-radius: 10px;">
+        <h3>🟠 Medium Severity</h3>
+        <h2 style="color: orange;">{{ medium_severity }}</h2>
+    </div>
+    <div style="border: 1px solid gray; padding: 20px; border-radius: 10px;">
+        <h3>🟢 Low Severity</h3>
+        <h2 style="color: green;">{{ low_severity }}</h2>
+    </div>
+</div>
+
+<h3>📈 Threat Statistics</h3>
+<canvas id="threatChart" width="400" height="200"></canvas>
+
+<h3>📑 Latest Threats</h3>
+<table border="1">
+    <tr>
+        <th>Threat Type</th>
+        <th>Severity</th>
+        <th>Detected At</th>
+        <th>IP Address</th>
+    </tr>
+    {% for threat in latest_threats %}
+    <tr>
+        <td>{{ threat.threat_type }}</td>
+        <td style="color: {% if threat.severity == 'High' %}red
+                          {% elif threat.severity == 'Medium' %}orange
+                          {% else %}green{% endif %};">
+            {{ threat.severity }}
+        </td>
+        <td>{{ threat.detected_at }}</td>
+        <td>{{ threat.ip_address|default:"N/A" }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="4">No threats detected</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var ctx = document.getElementById('threatChart').getContext('2d');
+    var threatChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: {{ threat_labels|safe }},
+            datasets: [{
+                label: 'Threat Count',
+                data: {{ threat_values|safe }},
+                backgroundColor: 'rgba(255, 99, 132, 0.6)',
+                borderColor: 'rgba(255, 99, 132, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false
+        }
+    });
+</script>
+
+{% endblock %}

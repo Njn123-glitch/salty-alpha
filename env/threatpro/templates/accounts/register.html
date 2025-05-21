@@ -1,0 +1,330 @@
+{% comment %} 
+
+<!DOCTYPE html>
+<html lang="en" >
+  {% load static %}
+<head>
+  <meta charset="UTF-8">
+  <title>Login and Sign up form</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'><link rel="stylesheet" href="login-and-sign-up-form/dist/style.css">
+
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Raleway");
+
+body {
+  background: url(static/assets/img/hacky.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color: #0a192f; /* Dark cybersecurity blue */
+  font-family: "Raleway", sans-serif;
+  color: #e0e0e0;
+}
+
+.wrapper {
+  width: 350px;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+.wrapper .form {
+  border-radius: 10px;
+  overflow: hidden;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+  background-color: #112240; /* Darker cyber blue */
+  transition: all ease 1s;
+  box-shadow: 0px 0px 5px 2px #64ffda; /* Cyber glow */
+}
+
+.wrapper .form.form-horizontal {
+  transform: rotate(-90deg);
+  z-index: 99;
+}
+
+.wrapper .form .title {
+  font-size: 4rem;
+  text-align: center;
+  color: #64ffda; /* Neon cyan */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  background-color: #021b35;
+  padding: 10px;
+}
+
+.wrapper .form .title:hover {
+  cursor: pointer;
+}
+
+.wrapper .form form {
+  padding: 10px 20px;
+}
+
+.wrapper .form form .profileImage {
+  text-align: center;
+  font-size: 8rem;
+  color: #64ffda;
+}
+
+.wrapper .form form.loginForm {
+  margin: 30px auto;
+}
+
+.wrapper .form form.signupForm .profileImage {
+  font-size: 6rem;
+}
+
+.wrapper .form form .form-group {
+  position: relative;
+}
+
+.wrapper .form form .form-group .form-icon {
+  position: absolute;
+  height: 50px;
+  width: 40px;
+  text-align: center;
+  line-height: 50px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  color: #112240;
+  background-color: #64ffda;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.wrapper .form form input {
+  border-radius: 0px;
+  background-color: #021b35;
+  padding: 24px;
+  box-shadow: none;
+  border-color: #64ffda;
+  padding-left: 45px;
+  color: #64ffda;
+}
+
+.wrapper .form form input::placeholder {
+  color: #64ffda;
+}
+
+.wrapper .form form button[type=submit] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 0px;
+  background-color: #64ffda;
+  color: #021b35;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.wrapper .form form button[type=submit]:hover {
+  background-color: #00c9a7;
+  box-shadow: 0px 0px 10px #00c9a7;
+}
+
+/* Link */
+.info {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  margin: auto;
+  text-align: center;
+  color: #64ffda;
+  font-weight: 600;
+  width: 250px;
+  font-size: 2rem;
+}
+
+.info a {
+  font-size: 5rem;
+  display: block;
+  color: #64ffda;
+}
+
+</style>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="wrapper">
+        <div class="form" id="form1">
+          <div class="title">Register</div>
+          <form method="post" class="loginForm">
+            {% csrf_token %}
+            
+            <div class="profileImage">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            </div>
+        
+            <div class="form-group">
+                <i class="fa fa-user form-icon"></i>
+                <input type="text" class="form-control" name="username" placeholder="Username" required>
+            </div>
+        
+            <div class="form-group">
+                <i class="fa fa-envelope form-icon"></i>
+                <input type="email" class="form-control" name="email" placeholder="Email" required>
+            </div>
+        
+            <div class="form-group">
+                <i class="fa fa-phone form-icon"></i>
+                <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+            </div>
+        
+            <div class="form-group">
+                <i class="fa fa-lock form-icon"></i>
+                <input type="password" class="form-control" name="password1" placeholder="Password" required>
+            </div>
+        
+            <div class="form-group">
+                <i class="fa fa-lock form-icon"></i>
+                <input type="password" class="form-control" name="password2" placeholder="Confirm Password" required>
+            </div>
+        
+            <button type="submit" class="btn btn-default">Register</button>
+        </form>
+        
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+ <script>
+    $(document).ready(function(){
+  $("body").on('click',".form-horizontal",function(){
+    $(".form").toggleClass("form-horizontal");
+  });
+});
+    </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="login-and-sign-up-form/dist/script.js"></script>
+
+</body>
+</html>  {% endcomment %}
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="{% static 'assets/css/style1.css' %}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="container" class="container" style="background-image: url('{% static "assets/img/bgimg4.jpeg" %}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+		<!-- FORM SECTION -->
+		<div class="row">
+			<!-- SIGN UP -->
+			<div class="col align-items-center flex-col sign-up">
+				
+			
+			</div>
+			<!-- END SIGN UP -->
+			<!-- SIGN IN -->
+			<div class="col align-items-center flex-col sign-in">
+				<div class="form-wrapper align-items-center">
+					<div class="form sign-in">
+            <form method="post" action="" class="loginForm">
+              {% csrf_token %}
+              <div class="input-group">
+                <i class='bx bxs-user'></i>
+                <input type="text" name="username" placeholder="Username">
+              </div>
+              <div class="input-group">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="email" name="email" placeholder="Email">
+              </div>
+                          <div class="input-group">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="text" name="phone" placeholder="Phone">
+              </div>
+                          <div class="input-group">
+                <i class='bx bxs-user'></i>
+                <input type="password" name="password1" placeholder="Password">
+              </div>
+              <div class="input-group">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="password" name="password2" placeholder="Confirm Password">
+              </div>
+
+              <button type="submit">
+                Sign up
+              </button>
+            </form>
+						
+						<p>
+							<span>
+								Already have an account?
+							</span>
+							
+              <b><a href="{% url 'login' %}" style="text-decoration: none; color: inherit;"> Login </a></b>
+						</p>
+
+						<div><a href=""><img src="{% static 'assets/images/Cyber-Security.png' %}" width="30px" height="30px"></a></div> 
+					</div>
+				</div>
+				<div class="form-wrapper">
+		
+				</div>
+			</div>
+			<!-- END SIGN IN -->
+		</div>
+		<!-- END FORM SECTION -->
+		<!-- CONTENT SECTION -->
+		<div class="row content-row">
+			<!-- SIGN IN CONTENT -->
+			<div class="col align-items-center flex-col">
+				<div class="text sign-in">
+					<h2>
+						Welcome
+					</h2>
+	
+				</div>
+				<div class="img sign-in">
+		
+				</div>
+			</div>
+			<!-- END SIGN IN CONTENT -->
+			<!-- SIGN UP CONTENT -->
+			<div class="col align-items-center flex-col">
+				<div class="img sign-up">
+				
+				</div>
+				<div class="text sign-up">
+					<h2>
+						Join with us
+					</h2>
+	
+				</div>
+			</div>
+			<!-- END SIGN UP CONTENT -->
+		</div>
+		<!-- END CONTENT SECTION -->
+	</div>
+<!-- partial -->
+  <script  src="{% static 'assets/js/script1.js' %}"></script>
+
+</body>
+</html>
